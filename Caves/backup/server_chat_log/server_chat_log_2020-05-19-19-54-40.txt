@@ -1,0 +1,8 @@
+[00:01:05]: [Join Announcement] wawadgccc
+[00:01:33]: [Join Announcement] limwris0912
+[00:02:11]: [Join Announcement] 北極小熊
+[00:21:52]: [Resurrect Announcement] limwris0912 复活自： 北極小熊.
+[01:11:51]: [Death Announcement] limwris0912 死于： 蓝色猎犬。她变成了可怕的鬼魂！
+[01:12:20]: [Resurrect Announcement] limwris0912 复活自： wawadgccc.
+[01:15:02]: [Leave Announcement] limwris0912
+[01:29:32]: [Leave Announcement] wawadgccc

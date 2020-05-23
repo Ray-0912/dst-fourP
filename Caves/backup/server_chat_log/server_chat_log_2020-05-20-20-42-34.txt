@@ -1,0 +1,7 @@
+[00:00:51]: [Join Announcement] limwris0912
+[00:01:16]: [Join Announcement] 北極小熊
+[00:01:27]: [Join Announcement] wawadgccc
+[00:23:45]: [Death Announcement] 北極小熊 死于： 黑暗。他变成了可怕的鬼魂！
+[00:24:17]: [Resurrect Announcement] 北極小熊 复活自： wawadgccc.
+[04:31:27]: [Death Announcement] wawadgccc 死于： 龙蝇。她变成了可怕的鬼魂！
+[04:34:19]: [Resurrect Announcement] wawadgccc 复活自： 北極小熊.

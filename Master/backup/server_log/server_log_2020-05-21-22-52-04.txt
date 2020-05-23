@@ -1,0 +1,788 @@
+[00:00:00]: 
+System Memory:
+	Memory Load: 34%
+	Available Physical Memory: 10684m/16281m
+	Available Page File: 9610m/18713m
+	Available Virtual Memory: 3984m/4095m
+	Available Extended Virtual Memory: 0m
+[00:00:00]: 
+Process Memory:
+	Peak Working Set Size: 30m
+	Working Set Size: 30m
+	Quota Peak Page Pool Usage: 221k
+	Quota Page Pool Usage: 215k
+	Quota Peak Non Paged Pool Usage:17k
+	Quota Non Paged Pool Usage: 17k
+	Page File Usage: 5m
+	Peak Page File Usage: 5m
+[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogether/386450579/Cluster_1/Master/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 408761
+[00:00:00]: Current time: Thu May 21 19:43:52 2020
+
+[00:00:00]: Don't Starve Together: 408761 WIN32
+[00:00:00]: Build Date: 5259
+[00:00:00]: Mode: 32-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -monitor_parent_process 12720 -persistent_storage_root APP:Klei/ -conf_dir DoNotStarveTogether -cluster Cluster_1 -fo -ownernetid 76561198346716307 -ownerdir 386450579 -backup_log_count 10 -backup_log_period 0 -shard Master -sigprefix DST_Master -region Sing 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: Initializing Minidump handler
+[00:00:00]: ....Done
+[00:00:00]: ....Done
+[00:00:00]: Fixing DPI
+[00:00:00]: ...Done
+[00:00:00]: THREAD - started 'GAClient' (2592)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: ProfileIndex:3.22
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: Platform: 1
+[00:00:00]: THREAD - started 'Ping Job Thread' (3852)
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Authorized application C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\bin\dontstarve_dedicated_server_nullrenderer.exe is enabled in the firewall.
+[00:00:00]: WindowsFirewall - Application already authorized
+[00:00:00]: Overriding region to Sing
+[00:00:00]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/386450579/client_save/blocklist.txt (Failure)
+[00:00:00]: THREAD - started 'StreamInput' (7884)
+[00:00:00]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/386450579/client_save/adminlist.txt (Failure)
+[00:00:00]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/386450579/client_save/whitelist.txt (Failure)
+[00:00:00]: Offline user ID: OU_76561198346716307
+[00:00:00]: Token retrieved from: APP:Klei//DoNotStarveTogether/386450579/Cluster_1/cluster_token.txt
+[00:00:00]: Token retrieved from: APP:Klei//DoNotStarveTogether/386450579/Cluster_1/cluster_token.txt
+[00:00:00]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 10 家用版
+    version                   10.0.18362
+    architecture              64 位元
+    platformSpecific          SP 0.0
+  CPU                       
+    numCores                  4
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+    name                      Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz
+    manufacturer              GenuineIntel
+    clockSpeed                3401
+  RAM                       
+    megsOfRam                 16384
+  GPU                       
+    name                      Radeon Pro 560
+    driverDate                20170720000000.000000-000
+    megsOfRam                 4095
+    refreshRate               60
+    videoModeDescription      4096 x 2304 x 4294967296 色彩
+    driverVersion             22.19.170.1536
+
+[00:00:00]: cGame::InitializeOnMainThread
+[00:00:00]: Renderer initialize: Okay
+[00:00:00]: AnimManager initialize: Okay
+[00:00:00]: Buffers initialize: Okay
+[00:00:00]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:00]: GameSpecific initialize: Okay
+[00:00:00]: cGame::StartPlaying
+[00:00:00]: LOADING LUA
+[00:00:00]: DoLuaFile scripts/main.lua
+[00:00:00]: DoLuaFile loading buffer scripts/main.lua
+[00:00:00]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:00:01]:   taskgrouplist:	default	联机版	
+[00:00:01]:   taskgrouplist:	classic	经典	
+[00:00:01]:   taskgrouplist:	cave_default	地下	
+[00:00:01]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:01]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:01]: running main.lua
+	
+[00:00:01]: loaded modindex	
+[00:00:01]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:01]: DownloadMods(0)
+[00:00:02]: modoverrides.lua enabling workshop-347079953	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-347079953_CLIENT	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
+[00:00:02]: Overriding mod workshop-347079953's option DFV_Language with value EN	
+[00:00:02]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
+[00:00:02]: Loading mod: workshop-347079953 (Display food values) Version:1.61	
+[00:00:02]: Mod: workshop-347079953 (Display food values)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: workshop-347079953 (Display food values)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: workshop-347079953 (Display food values)	Loading modmain.lua	
+[00:00:02]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:03]: LOADING LUA SUCCESS
+[00:00:03]: Registering mod namespace "food item"
+[00:00:03]: PlayerDeaths could not load morgue	
+[00:00:03]: PlayerHistory could not load player_history	
+[00:00:03]: ServerPreferences could not load server_preferences	
+[00:00:03]: bloom_enabled	false	
+[00:00:03]: loaded saveindex	
+[00:00:03]: OnFilesLoaded()	
+[00:00:03]: OnUpdatePurchaseStateComplete	
+[00:00:03]: Klump load on boot started.	
+[00:00:03]: Klump files loaded: 	0	
+[00:00:05]: Mod: workshop-347079953 (Display food values)	Registering prefabs	
+[00:00:05]: Mod: workshop-347079953 (Display food values)	  Registering default mod prefab	
+[00:00:05]: 	Load FE	
+[00:00:06]: 	Load FE: done	
+[00:00:06]: THREAD - started 'FilesExistAsyncThread' (13324)
+[00:00:06]: FilesExistAsyncThread started (15361 files)...
+[00:00:06]: Check for write access: TRUE
+[00:00:06]: Check for read access: TRUE
+[00:00:06]: ModIndex: Load sequence finished successfully.	
+[00:00:06]: Reset() returning
+[00:00:06]: [IPC] Signal 'DST_Master_Kill' opened  #00000564
+[00:00:06]: [IPC] Registering handler for signal #00000564
+[00:00:06]: [IPC] Handle #00000564 added to the Eventhandles
+[00:00:06]: [IPC] Signal 'DST_Master_Starting' opened  #00000550
+[00:00:06]: [IPC] Sending signal... #00000550
+[00:00:06]: [200] Account Communication Success (6)
+[00:00:06]: Received (KU_Z2tKYDz8) from TokenPurpose
+[00:00:06]: Starting Dedicated Server Game	
+[00:00:06]: Network tick rate: U=15(2), D=0
+[00:00:06]: About to start a server with the following settings:
+[00:00:06]:   Dedicated: true
+[00:00:06]:   Online: true
+[00:00:06]:   Passworded: false
+[00:00:06]:   ServerPort: 10999
+[00:00:06]:   SteamAuthPort: 8766
+[00:00:06]:   SteamMasterServerPort: 27016
+[00:00:06]:   ClanID: false
+[00:00:06]:   ClanOnly: false
+[00:00:06]:   ClanAdmin: false
+[00:00:06]:   LanOnly: false
+[00:00:06]:   FriendsOnly: true
+[00:00:06]:   EnableAutosaver: true
+[00:00:06]:   EncodeUserPath: true
+[00:00:06]:   PVP: false
+[00:00:06]:   MaxPlayers: 6
+[00:00:06]:   GameMode: survival
+[00:00:06]:   OverridenDNS: 
+[00:00:06]:   PauseWhenEmpty: true
+[00:00:06]:   IdleTimeout: 1800s
+[00:00:06]:   VoteEnabled: false
+[00:00:06]:   InternetBroadcasting: true
+[00:00:06]:   Intent: madness
+[00:00:06]: [Warning] Could not confirm port 10999 is open in the firewall. 
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-347079953	
+[00:00:06]: Online Server Started on port: 10999
+[00:00:07]: Collecting garbage...
+[00:00:07]: lua_gc took 0.03 seconds
+[00:00:07]: ~ShardLuaProxy()
+[00:00:07]: ~cEventLeaderboardProxy()
+[00:00:07]: ~ItemServerLuaProxy()
+[00:00:07]: ~InventoryLuaProxy()
+[00:00:07]: ~NetworkLuaProxy()
+[00:00:07]: ~SimLuaProxy()
+[00:00:07]: FilesExistAsyncThread aborted.
+[00:00:07]: ... FilesExistAsyncThread complete
+[00:00:07]: lua_close took 0.06 seconds
+[00:00:07]: ReleaseAll
+[00:00:07]: ReleaseAll Finished
+[00:00:07]: cGame::StartPlaying
+[00:00:07]: LOADING LUA
+[00:00:07]: DoLuaFile scripts/main.lua
+[00:00:07]: DoLuaFile loading buffer scripts/main.lua
+[00:00:07]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:00:08]:   taskgrouplist:	default	联机版	
+[00:00:08]:   taskgrouplist:	classic	经典	
+[00:00:08]:   taskgrouplist:	cave_default	地下	
+[00:00:08]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:08]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:08]: running main.lua
+	
+[00:00:08]: unloading prefabs for mod MOD_workshop-347079953	
+[00:00:08]: loaded modindex	
+[00:00:08]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:08]: modoverrides.lua enabling workshop-347079953	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-347079953	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
+[00:00:08]: Overriding mod workshop-347079953's option DFV_Language with value EN	
+[00:00:08]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
+[00:00:08]: Loading mod: workshop-347079953 (Display food values) Version:1.61	
+[00:00:08]: Mod: workshop-347079953 (Display food values)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-347079953 (Display food values)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-347079953 (Display food values)	Loading modmain.lua	
+[00:00:10]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:10]: LOADING LUA SUCCESS
+[00:00:10]: Registering mod namespace "food item"
+[00:00:10]: PlayerDeaths could not load morgue	
+[00:00:10]: PlayerHistory could not load player_history	
+[00:00:10]: ServerPreferences could not load server_preferences	
+[00:00:10]: bloom_enabled	false	
+[00:00:10]: loaded saveindex	
+[00:00:10]: OnFilesLoaded()	
+[00:00:10]: OnUpdatePurchaseStateComplete	
+[00:00:10]: Loading world: session/1CD36DF84459284D/0000000370	
+[00:00:11]: Save file is at version 5.04	
+[00:00:11]: Klump load on boot started.	
+[00:00:11]: Klump files loaded: 	0	
+[00:00:11]: 	Unload FE	
+[00:00:11]: 	Unload FE done	
+[00:00:25]: Mod: workshop-347079953 (Display food values)	Registering prefabs	
+[00:00:25]: Mod: workshop-347079953 (Display food values)	  Registering default mod prefab	
+[00:00:25]: 	LOAD BE	
+[00:00:28]: 	LOAD BE: done	
+[00:00:28]: Begin Session: 1CD36DF84459284D
+[00:00:29]: saving to server_temp/server_save	
+[00:00:29]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:29]: Loading 16 new character(s)	
+[00:00:29]: Total 16 character(s) loaded	
+[00:00:30]: Loading Nav Grid	
+[00:00:30]: World generated on version 408761, using seed: 1589207358	
+[00:00:30]: setting 	summerlength	15	
+[00:00:30]: setting 	isnightmaredawn	false	
+[00:00:30]: setting 	elapseddaysinseason	1	
+[00:00:30]: setting 	isfullmoon	false	
+[00:00:30]: setting 	moisture	5406.4091796875	
+[00:00:30]: setting 	springlength	20	
+[00:00:30]: setting 	isnightmarewild	false	
+[00:00:30]: setting 	moonphase	threequarter	
+[00:00:30]: setting 	precipitationrate	0	
+[00:00:30]: setting 	iswet	false	
+[00:00:30]: setting 	isnewmoon	false	
+[00:00:30]: setting 	iswinter	false	
+[00:00:30]: setting 	israining	false	
+[00:00:30]: setting 	isnightmarewarn	false	
+[00:00:30]: setting 	precipitation	none	
+[00:00:30]: setting 	cavephase	dusk	
+[00:00:30]: setting 	moistureceil	7918.4985351563	
+[00:00:30]: setting 	isday	false	
+[00:00:30]: setting 	iscaveday	false	
+[00:00:30]: setting 	season	autumn	
+[00:00:30]: setting 	timeinphase	0.62843691507975	
+[00:00:30]: setting 	temperature	56.328609811921	
+[00:00:30]: setting 	isnightmarecalm	false	
+[00:00:30]: setting 	isnight	false	
+[00:00:30]: setting 	isdusk	true	
+[00:00:30]: setting 	iscavedusk	true	
+[00:00:30]: setting 	isautumn	true	
+[00:00:30]: setting 	issnowing	false	
+[00:00:30]: setting 	iswaxingmoon	false	
+[00:00:30]: setting 	pop	0.24742712610333	
+[00:00:30]: setting 	snowlevel	0	
+[00:00:30]: setting 	issnowcovered	false	
+[00:00:30]: setting 	autumnlength	20	
+[00:00:30]: setting 	phase	dusk	
+[00:00:30]: setting 	nightmaretime	0	
+[00:00:30]: setting 	winterlength	15	
+[00:00:30]: setting 	isspring	false	
+[00:00:30]: setting 	nightmarephase	none	
+[00:00:30]: setting 	remainingdaysinseason	19	
+[00:00:30]: setting 	cycles	351	
+[00:00:30]: setting 	iscavenight	false	
+[00:00:30]: setting 	nightmaretimeinphase	0	
+[00:00:30]: setting 	wetness	0	
+[00:00:30]: setting 	time	0.71960922876994	
+[00:00:30]: setting 	issummer	false	
+[00:00:30]: OVERRIDE: setting	flowers	to	often	
+[00:00:30]: OVERRIDE: setting	butterfly	to	often	
+[00:00:34]: Could not find anim build FROMNUM
+[00:00:34]: Could not find anim build FROMNUM
+[00:00:34]: Could not find anim build FROMNUM
+[00:00:34]: Could not find anim build FROMNUM
+[00:00:34]: Could not find anim build FROMNUM
+[00:00:34]: Could not find anim build FROMNUM
+[00:00:34]: Could not find anim build FROMNUM
+[00:00:34]: Could not find anim build FROMNUM
+[00:00:34]: Could not find anim build FROMNUM
+[00:00:34]: Could not find anim build FROMNUM
+[00:00:34]: Could not find anim build FROMNUM
+[00:00:34]: Could not find anim build FROMNUM
+[00:00:34]: Could not find anim build FROMNUM
+[00:00:34]: Could not find anim build FROMNUM
+[00:00:34]: Could not find anim build FROMNUM
+[00:00:34]: Could not find anim build FROMNUM
+[00:00:34]: Could not find anim build FROMNUM
+[00:00:34]: Could not find anim build FROMNUM
+[00:00:34]: Could not find anim build FROMNUM
+[00:00:34]: Could not find anim build FROMNUM
+[00:00:34]: Could not find anim build FROMNUM
+[00:00:34]: Could not find anim build FROMNUM
+[00:00:34]: Could not find anim build FROMNUM
+[00:00:34]: Could not find anim build FROMNUM
+[00:00:34]: Could not find anim build FROMNUM
+[00:00:36]: Reconstructing topology	
+[00:00:36]: 	...Sorting points	
+[00:00:36]: 	...Sorting edges	
+[00:00:36]: 	...Connecting nodes	
+[00:00:36]: 	...Validating connections	
+[00:00:36]: 	...Housekeeping	
+[00:00:36]: 	...Done!	
+[00:00:36]: 1 uploads added to server. From server_temp
+[00:00:36]: About to start a shard with these settings:
+[00:00:36]:   ShardName: [SHDMASTER]
+[00:00:36]:   ShardID: 1
+[00:00:36]:   ShardRole: MASTER
+[00:00:36]:   MasterHost: (null)
+[00:00:36]:   MasterBind: 127.0.0.1
+[00:00:36]:   MasterPort: 10888
+[00:00:36]: [Shard] Starting master server
+[00:00:36]: [Warning] Could not confirm port 10888 is open in the firewall. 
+[00:00:36]: [Shard] Shard server started on port: 10888
+[00:00:36]: [IPC] Signal 'DST_Master_Ready' opened  #000005E0
+[00:00:36]: [IPC] Sending signal... #000005E0
+[00:00:36]: Telling Client our new session identifier: 1CD36DF84459284D
+[00:00:36]: Check for write access: TRUE
+[00:00:36]: Check for read access: TRUE
+[00:00:36]: ModIndex: Load sequence finished successfully.	
+[00:00:37]: Reset() returning
+[00:00:37]: [Steam] SteamGameServer_Init(8766, 10999, 27016)
+[00:00:38]: [Steam] SteamGameServer_Init success
+[00:00:38]: Validating portal[5] <-> 2712511313[5] (inactive)	
+[00:00:38]: Validating portal[6] <-> 2712511313[6] (inactive)	
+[00:00:38]: Validating portal[7] <-> 2712511313[7] (inactive)	
+[00:00:38]: Validating portal[8] <-> 2712511313[8] (inactive)	
+[00:00:38]: Validating portal[9] <-> 2712511313[9] (inactive)	
+[00:00:38]: Validating portal[2] <-> 2712511313[2] (inactive)	
+[00:00:38]: Validating portal[1] <-> 2712511313[1] (inactive)	
+[00:00:38]: Validating portal[4] <-> 2712511313[4] (inactive)	
+[00:00:38]: Validating portal[3] <-> 2712511313[3] (inactive)	
+[00:00:38]: Validating portal[10] <-> 2712511313[10] (inactive)	
+[00:00:38]: Sim paused
+[00:00:38]: Registering master server in Sing lobby
+[00:00:39]: Gameserver logged on to Steam, assigned identity steamid:90135455029099529
+[00:00:42]: [Shard] Slave Caves(2712511313) connected: [LAN] 127.0.0.1
+[00:00:43]: [Shard] Slave Caves(2712511313) ready!
+[00:00:43]: World 2712511313 is now connected	
+[00:00:43]: Validating portal[5] <-> 2712511313[5] (active)	
+[00:00:43]: Validating portal[6] <-> 2712511313[6] (active)	
+[00:00:43]: Validating portal[7] <-> 2712511313[7] (active)	
+[00:00:43]: Validating portal[8] <-> 2712511313[8] (active)	
+[00:00:43]: Validating portal[9] <-> 2712511313[9] (active)	
+[00:00:43]: Validating portal[2] <-> 2712511313[2] (active)	
+[00:00:43]: Validating portal[1] <-> 2712511313[1] (active)	
+[00:00:43]: Validating portal[4] <-> 2712511313[4] (active)	
+[00:00:43]: Validating portal[3] <-> 2712511313[3] (active)	
+[00:00:43]: Validating portal[10] <-> 2712511313[10] (active)	
+[00:00:45]: New incoming connection 127.0.0.1|51188 <347106424733795056>
+[00:00:45]: Client connected from [LAN] 127.0.0.1|51188 <347106424733795056>
+[00:00:45]: ValidateGameSessionToken pgs-usc^KU_Z2tKYDz8^DontStarveTogether^di9/ABn7CZ1dzxAH+hgFsRRzIBoVwy+g+tzsmYWBJ9g= for <347106424733795056>
+[00:00:45]: Client authenticated: (KU_Z2tKYDz8) limwris0912
+[00:00:45]: [Steam] Authenticated host '76561198346716307'
+[00:00:46]: There is no active event to validate against.
+[00:00:46]: [Shard] Read save location file for (KU_Z2tKYDz8)
+[00:00:48]: Registering master server in Sing lobby
+[00:01:00]: Resuming user: session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000370
+[00:01:00]: Spawning player at: [Load] (178.19, 0.00, -98.60)	
+[00:01:00]: Sim unpaused
+[00:01:00]: Registering master server in Sing lobby
+[00:03:16]: Registering master server in Sing lobby
+[00:03:16]: Serializing user: session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000371
+[00:03:16]: Serializing world: session/1CD36DF84459284D/0000000371
+[00:03:21]: [P2P] Session request for '76561198517543938'
+[00:03:25]: [P2P] Create session: 185.165.191.167|1 '76561198517543938'
+[00:03:25]: [P2P] Received from 185.165.191.167|1 '76561198517543938'
+[00:03:25]: [P2P] Sent to 185.165.191.167|1 '76561198517543938'
+[00:03:25]: New incoming connection 185.165.191.167|1 <1670557119368265055>
+[00:03:25]: Client connected from 185.165.191.167|1 <1670557119368265055>
+[00:03:25]: ValidateGameSessionToken pgs-usc^KU_-OlmDxT9^DontStarveTogether^QigaB40W/YVMvSVasdE+Vpiz07+Y3q2ViWRwKqKyK5M= for <1670557119368265055>
+[00:03:26]: Client authenticated: (KU_-OlmDxT9) wawadgccc
+[00:03:26]: [Steam] SendUserConnectAndAuthenticate for '76561198517543938'
+[00:03:26]: [Steam] Authenticated client '76561198517543938'
+[00:03:28]: There is no active event to validate against.
+[00:03:28]: [Shard] Read save location file for (KU_-OlmDxT9)
+[00:03:28]: Registering master server in Sing lobby
+[00:03:43]: Resuming user: session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000370
+[00:03:43]: Spawning player at: [Load] (158.25, 0.00, -100.93)	
+[00:03:43]: Registering master server in Sing lobby
+[00:05:41]: [P2P] Session request for '76561198203839992'
+[00:05:45]: [P2P] Create session: 185.165.191.168|1 '76561198203839992'
+[00:05:45]: [P2P] Received from 185.165.191.168|1 '76561198203839992'
+[00:05:45]: [P2P] Sent to 185.165.191.168|1 '76561198203839992'
+[00:05:52]: New incoming connection 185.165.191.168|1 <1952323634131047232>
+[00:05:52]: Client connected from 185.165.191.168|1 <1952323634131047232>
+[00:05:52]: ValidateGameSessionToken pgs-usc^KU_rpRMv2q1^DontStarveTogether^OSnW9cv6ul6XO3zF+tgCeA5ZRS/kZLtTKttIKdReE7U= for <1952323634131047232>
+[00:05:53]: Client authenticated: (KU_rpRMv2q1) ray19721125
+[00:05:53]: [Steam] SendUserConnectAndAuthenticate for '76561198203839992'
+[00:05:54]: [Steam] Authenticated client '76561198203839992'
+[00:05:55]: There is no active event to validate against.
+[00:05:55]: [Shard] Read save location file for (KU_rpRMv2q1)
+[00:05:58]: Registering master server in Sing lobby
+[00:06:06]: [Steam] SendUserDisconnect for '76561198203839992'
+[00:06:06]: Connection lost to 185.165.191.168|1 <1952323634131047232>
+[00:06:06]: [Shard] (KU_rpRMv2q1) disconnected from [SHDMASTER](1)
+[00:06:08]: Registering master server in Sing lobby
+[00:06:16]: [P2P] Received from 185.165.191.168|1 '76561198203839992'
+[00:06:37]: [P2P] Received from 185.165.191.168|1 '76561198203839992'
+[00:06:37]: [P2P] Sent to 185.165.191.168|1 '76561198203839992'
+[00:06:43]: New incoming connection 185.165.191.168|1 <2304788444324662519>
+[00:06:43]: Client connected from 185.165.191.168|1 <2304788444324662519>
+[00:06:43]: ValidateGameSessionToken pgs-usc^KU_rpRMv2q1^DontStarveTogether^D7rZcUeELKqa2g+ye9xMg0MtJacZBvTmIPbBVcu2k94= for <2304788444324662519>
+[00:06:43]: Client authenticated: (KU_rpRMv2q1) ray19721125
+[00:06:43]: [Steam] SendUserConnectAndAuthenticate for '76561198203839992'
+[00:06:44]: [Steam] Authenticated client '76561198203839992'
+[00:06:45]: There is no active event to validate against.
+[00:06:45]: [Shard] Read save location file for (KU_rpRMv2q1)
+[00:06:45]: Registering master server in Sing lobby
+[00:07:01]: Resuming user: session/1CD36DF84459284D/A7MN6RBE8B81/0000000332
+[00:07:01]: Spawning player at: [Load] (173.70, -0.00, -103.39)	
+[00:07:01]: Registering master server in Sing lobby
+[00:07:30]: Activating portal[3] to 2712511313	
+[00:07:30]: Serializing user: session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000372
+[00:07:30]: [Shard] Migration request: (KU_-OlmDxT9) to Caves(2712511313)
+[00:07:31]: [Shard] Begin migration #1 for (KU_-OlmDxT9)
+[00:07:31]: [Shard] #1 [SHDMASTER](1) -> Caves(2712511313)
+[00:07:31]: [Shard] #1 <- session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000372
+[00:07:31]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[00:07:31]: [Steam] SendUserDisconnect for '76561198517543938'
+[00:07:31]: [Shard] (KU_-OlmDxT9) disconnected from [SHDMASTER](1)
+[00:07:42]: [Shard] Completed migration #1 for player (KU_-OlmDxT9)
+[00:07:42]: [Shard] Writing save location file for (KU_-OlmDxT9)
+[00:08:39]: [Shard] Begin migration #2 for (KU_-OlmDxT9)
+[00:08:39]: [Shard] #2 Caves(2712511313) -> [SHDMASTER](1)
+[00:08:39]: [Shard] #2 -> session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000372
+[00:08:39]: [Shard] Received migration #2 data for (KU_-OlmDxT9)
+[00:08:39]: [Shard] (KU_-OlmDxT9) disconnected from Caves(2712511313)
+[00:08:44]: [P2P] Received from 185.165.191.167|1 '76561198517543938'
+[00:08:44]: [P2P] Sent to 185.165.191.167|1 '76561198517543938'
+[00:08:45]: New incoming connection 185.165.191.167|1 <6354048477279047753>
+[00:08:45]: Client connected from 185.165.191.167|1 <6354048477279047753>
+[00:08:45]: ValidateGameSessionToken pgs-usc^KU_-OlmDxT9^DontStarveTogether^7cge2ufpzWew5Lcnw/btFRuXL19UidH3u7tD8i/MCXc= for <6354048477279047753>
+[00:08:46]: Client authenticated: (KU_-OlmDxT9) wawadgccc
+[00:08:46]: [Steam] SendUserConnectAndAuthenticate for '76561198517543938'
+[00:08:47]: [Steam] Authenticated client '76561198517543938'
+[00:08:47]: [Shard] Completed incoming migration #2 for (KU_-OlmDxT9)
+[00:08:47]: [Shard] Completed migration #2 for player (KU_-OlmDxT9)
+[00:08:47]: [Shard] Writing save location file for (KU_-OlmDxT9)
+[00:09:00]: Resuming user: session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000372
+[00:09:00]: Player will spawn close to portal #3	
+[00:09:00]: Spawning player at: [Load] (151.01, 0.00, -191.90)	
+[00:11:17]: Serializing user: session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000372
+[00:11:17]: Serializing user: session/1CD36DF84459284D/A7MN6RBE8B81/0000000372
+[00:11:17]: Serializing user: session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000372
+[00:11:17]: Serializing world: session/1CD36DF84459284D/0000000372
+[00:11:22]: Registering master server in Sing lobby
+[00:14:49]: Could not find anim [grow_normal_to_tall] in bank [tree_leaf_monster]
+[00:17:32]: [Steam] SendUserDisconnect for '76561198203839992'
+[00:17:32]: Connection lost to 185.165.191.168|1 <2304788444324662519>
+[00:17:32]: [Shard] (KU_rpRMv2q1) disconnected from [SHDMASTER](1)
+[00:17:32]: Registering master server in Sing lobby
+[00:17:33]: Serializing user: session/1CD36DF84459284D/A7MN6RBE8B81/0000000373
+[00:19:17]: Serializing user: session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000373
+[00:19:17]: Serializing user: session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000373
+[00:19:18]: Serializing world: session/1CD36DF84459284D/0000000373
+[00:19:23]: Registering master server in Sing lobby
+[00:21:43]: [P2P] Received from 185.165.191.168|1 '76561198203839992'
+[00:21:43]: [P2P] Sent to 185.165.191.168|1 '76561198203839992'
+[00:21:51]: New incoming connection 185.165.191.168|1 <4046539610673285334>
+[00:21:51]: Client connected from 185.165.191.168|1 <4046539610673285334>
+[00:21:51]: ValidateGameSessionToken pgs-usc^KU_rpRMv2q1^DontStarveTogether^rHyEDCgTTKDz682RYG25H18dA13VqgmEceC1uzVmKMA= for <4046539610673285334>
+[00:21:52]: Client authenticated: (KU_rpRMv2q1) ray19721125
+[00:21:52]: [Steam] SendUserConnectAndAuthenticate for '76561198203839992'
+[00:21:52]: [Steam] Authenticated client '76561198203839992'
+[00:21:54]: There is no active event to validate against.
+[00:21:54]: [Shard] Read save location file for (KU_rpRMv2q1)
+[00:22:03]: Registering master server in Sing lobby
+[00:22:09]: Resuming user: session/1CD36DF84459284D/A7MN6RBE8B81/0000000373
+[00:22:09]: Spawning player at: [Load] (1.29, -0.00, -297.79)	
+[00:22:13]: Registering master server in Sing lobby
+[00:27:18]: Serializing user: session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000374
+[00:27:18]: Serializing user: session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000374
+[00:27:18]: Serializing user: session/1CD36DF84459284D/A7MN6RBE8B81/0000000374
+[00:27:18]: Serializing world: session/1CD36DF84459284D/0000000374
+[00:27:23]: Registering master server in Sing lobby
+[00:30:06]: [200] Account Communication Success (6)
+[00:30:06]: Received (KU_Z2tKYDz8) from TokenPurpose
+[00:35:17]: Registering master server in Sing lobby
+[00:35:18]: Serializing user: session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000375
+[00:35:18]: Serializing user: session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000375
+[00:35:18]: Serializing user: session/1CD36DF84459284D/A7MN6RBE8B81/0000000375
+[00:35:19]: Serializing world: session/1CD36DF84459284D/0000000375
+[00:38:07]: Could not find anim [death] in bank [ghost]
+[00:38:07]: Serializing user: session/1CD36DF84459284D/A7MN6RBE8B81/0000000376
+[00:40:35]: Could not find anim [idle_loop] in bank [ghost]
+[00:40:38]: Could not find anim [transform] in bank [wilson]
+[00:40:39]: Serializing user: session/1CD36DF84459284D/A7MN6RBE8B81/0000000376
+[00:43:19]: Serializing user: session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000376
+[00:43:19]: Serializing user: session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000376
+[00:43:19]: Serializing user: session/1CD36DF84459284D/A7MN6RBE8B81/0000000376
+[00:43:19]: Serializing world: session/1CD36DF84459284D/0000000376
+[00:43:22]: Registering master server in Sing lobby
+[00:48:52]: Could not find anim [grow_normal_to_tall] in bank [tree_leaf_monster]
+[00:48:53]: Could not find anim [grow_normal_to_tall] in bank [tree_leaf_monster]
+[00:49:10]: Could not find anim [grow_normal_to_tall] in bank [tree_leaf_monster]
+[00:49:10]: Could not find anim [grow_normal_to_tall] in bank [tree_leaf_monster]
+[00:51:19]: Serializing user: session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000377
+[00:51:19]: Serializing user: session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000377
+[00:51:19]: Serializing user: session/1CD36DF84459284D/A7MN6RBE8B81/0000000377
+[00:51:20]: Serializing world: session/1CD36DF84459284D/0000000377
+[00:51:27]: Registering master server in Sing lobby
+[00:52:08]: Could not find anim [transform_out] in bank [FROMNUM]
+[00:53:24]: Could not find anim [death] in bank [ghost]
+[00:53:24]: Serializing user: session/1CD36DF84459284D/A7MN6RBE8B81/0000000378
+[00:54:20]: Could not find anim [idle_loop] in bank [ghost]
+[00:54:23]: Could not find anim [transform] in bank [wilson]
+[00:54:24]: Serializing user: session/1CD36DF84459284D/A7MN6RBE8B81/0000000378
+[00:56:03]: Could not find anim [transform_out] in bank [FROMNUM]
+[00:59:19]: Registering master server in Sing lobby
+[00:59:20]: Serializing user: session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000378
+[00:59:20]: Serializing user: session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000378
+[00:59:20]: Serializing user: session/1CD36DF84459284D/A7MN6RBE8B81/0000000378
+[00:59:20]: Serializing world: session/1CD36DF84459284D/0000000378
+[01:00:06]: [200] Account Communication Success (6)
+[01:00:06]: Received (KU_Z2tKYDz8) from TokenPurpose
+[01:07:21]: Serializing user: session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000379
+[01:07:21]: Serializing user: session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000379
+[01:07:21]: Serializing user: session/1CD36DF84459284D/A7MN6RBE8B81/0000000379
+[01:07:21]: Serializing world: session/1CD36DF84459284D/0000000379
+[01:07:24]: Registering master server in Sing lobby
+[01:07:26]: Could not find anim [spawn] in bank [FROMNUM]
+[01:07:26]: Could not find anim [spawn] in bank [FROMNUM]
+[01:15:21]: Serializing user: session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000380
+[01:15:21]: Serializing user: session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000380
+[01:15:21]: Serializing user: session/1CD36DF84459284D/A7MN6RBE8B81/0000000380
+[01:15:21]: Serializing world: session/1CD36DF84459284D/0000000380
+[01:15:29]: Registering master server in Sing lobby
+[01:23:20]: Registering master server in Sing lobby
+[01:23:22]: Serializing user: session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000381
+[01:23:22]: Serializing user: session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000381
+[01:23:22]: Serializing user: session/1CD36DF84459284D/A7MN6RBE8B81/0000000381
+[01:23:22]: Serializing world: session/1CD36DF84459284D/0000000381
+[01:28:41]: Deleting user: session/1CD36DF84459284D/A7MN6RBE8B81/0000000382
+[01:28:41]: Registering master server in Sing lobby
+[01:28:41]: Resuming user: session/1CD36DF84459284D/A7MN6RBE8B81/0000000382
+[01:30:06]: [200] Account Communication Success (6)
+[01:30:06]: Received (KU_Z2tKYDz8) from TokenPurpose
+[01:30:28]: Spawn request: winona from ray19721125
+[01:30:28]: Skin request: () (body_wickerbottom_spiderwitch) (hand_woodie_hockey) (legs_wortox_original) (feet_waxwell_gladiator)
+[01:30:28]: Spawning player at: [Fixed] (-22.00, 0.00, -78.00)	
+[01:30:28]: Serializing user: session/1CD36DF84459284D/A7MN6RBE8B81/0000000382
+[01:30:31]: Registering master server in Sing lobby
+[01:31:22]: Serializing user: session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000382
+[01:31:22]: Serializing user: session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000382
+[01:31:22]: Serializing user: session/1CD36DF84459284D/A7MN6RBE8B81/0000000382
+[01:31:22]: Serializing world: session/1CD36DF84459284D/0000000382
+[01:31:31]: Registering master server in Sing lobby
+[01:35:21]: [P2P] Session request for '76561198392773071'
+[01:35:22]: [P2P] Create session: 185.165.191.169|1 '76561198392773071'
+[01:35:22]: [P2P] Received from 185.165.191.169|1 '76561198392773071'
+[01:35:22]: [P2P] Sent to 185.165.191.169|1 '76561198392773071'
+[01:35:22]: New incoming connection 185.165.191.169|1 <816846502070159860>
+[01:35:22]: Client connected from 185.165.191.169|1 <816846502070159860>
+[01:35:22]: ValidateGameSessionToken pgs-usc^KU_F4GEnDwr^DontStarveTogether^sQwiApPYx5vCWL99vIcWXSpkWgVRwxoPhhCvov6MOOY= for <816846502070159860>
+[01:35:23]: Client authenticated: (KU_F4GEnDwr) 北極小熊
+[01:35:23]: [Steam] SendUserConnectAndAuthenticate for '76561198392773071'
+[01:35:23]: [Steam] Authenticated client '76561198392773071'
+[01:35:25]: There is no active event to validate against.
+[01:35:25]: [Shard] Read save location file for (KU_F4GEnDwr)
+[01:35:26]: Registering master server in Sing lobby
+[01:35:40]: Resuming user: session/1CD36DF84459284D/A7HS8G7C9NLL/0000000370
+[01:35:40]: Spawning player at: [Load] (168.96, 0.00, -94.64)	
+[01:35:40]: Registering master server in Sing lobby
+[01:39:21]: Registering master server in Sing lobby
+[01:39:23]: Serializing user: session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000383
+[01:39:23]: Serializing user: session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000383
+[01:39:23]: Serializing user: session/1CD36DF84459284D/A7MN6RBE8B81/0000000383
+[01:39:23]: Serializing user: session/1CD36DF84459284D/A7HS8G7C9NLL/0000000383
+[01:39:23]: Serializing world: session/1CD36DF84459284D/0000000383
+[01:47:23]: Serializing user: session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000384
+[01:47:23]: Serializing user: session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000384
+[01:47:23]: Serializing user: session/1CD36DF84459284D/A7MN6RBE8B81/0000000384
+[01:47:23]: Serializing user: session/1CD36DF84459284D/A7HS8G7C9NLL/0000000384
+[01:47:24]: Serializing world: session/1CD36DF84459284D/0000000384
+[01:47:27]: Registering master server in Sing lobby
+[01:55:24]: Serializing user: session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000385
+[01:55:24]: Serializing user: session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000385
+[01:55:24]: Serializing user: session/1CD36DF84459284D/A7MN6RBE8B81/0000000385
+[01:55:24]: Serializing user: session/1CD36DF84459284D/A7HS8G7C9NLL/0000000385
+[01:55:24]: Serializing world: session/1CD36DF84459284D/0000000385
+[01:55:32]: Registering master server in Sing lobby
+[02:00:06]: [200] Account Communication Success (6)
+[02:00:06]: Received (KU_Z2tKYDz8) from TokenPurpose
+[02:02:09]: Could not find anim [death] in bank [ghost]
+[02:02:09]: Serializing user: session/1CD36DF84459284D/A7HS8G7C9NLL/0000000386
+[02:02:24]: Could not find anim [idle_loop] in bank [ghost]
+[02:02:29]: Serializing user: session/1CD36DF84459284D/A7HS8G7C9NLL/0000000386
+[02:03:23]: Registering master server in Sing lobby
+[02:03:24]: Serializing user: session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000386
+[02:03:24]: Serializing user: session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000386
+[02:03:24]: Serializing user: session/1CD36DF84459284D/A7MN6RBE8B81/0000000386
+[02:03:24]: Serializing user: session/1CD36DF84459284D/A7HS8G7C9NLL/0000000386
+[02:03:25]: Serializing world: session/1CD36DF84459284D/0000000386
+[02:11:25]: Serializing user: session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000387
+[02:11:25]: Serializing user: session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000387
+[02:11:25]: Serializing user: session/1CD36DF84459284D/A7MN6RBE8B81/0000000387
+[02:11:25]: Serializing user: session/1CD36DF84459284D/A7HS8G7C9NLL/0000000387
+[02:11:25]: Serializing world: session/1CD36DF84459284D/0000000387
+[02:11:28]: Registering master server in Sing lobby
+[02:19:26]: Serializing user: session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000388
+[02:19:26]: Serializing user: session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000388
+[02:19:26]: Serializing user: session/1CD36DF84459284D/A7MN6RBE8B81/0000000388
+[02:19:26]: Serializing user: session/1CD36DF84459284D/A7HS8G7C9NLL/0000000388
+[02:19:26]: Serializing world: session/1CD36DF84459284D/0000000388
+[02:19:33]: Registering master server in Sing lobby
+[02:23:24]: [Steam] SendUserDisconnect for '76561198203839992'
+[02:23:24]: Connection lost to 185.165.191.168|1 <4046539610673285334>
+[02:23:24]: [Shard] (KU_rpRMv2q1) disconnected from [SHDMASTER](1)
+[02:23:24]: Serializing user: session/1CD36DF84459284D/A7MN6RBE8B81/0000000389
+[02:23:28]: Registering master server in Sing lobby
+[02:23:54]: [P2P] Connection failed for '76561198203839992'
+[02:27:25]: Registering master server in Sing lobby
+[02:27:26]: Serializing user: session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000389
+[02:27:26]: Serializing user: session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000389
+[02:27:26]: Serializing user: session/1CD36DF84459284D/A7HS8G7C9NLL/0000000389
+[02:27:26]: Serializing world: session/1CD36DF84459284D/0000000389
+[02:30:06]: [200] Account Communication Success (6)
+[02:30:06]: Received (KU_Z2tKYDz8) from TokenPurpose
+[02:33:24]: [P2P] Session timed out for '76561198203839992'
+[02:33:24]: [P2P] Remove session: 185.165.191.168|1 '76561198203839992'
+[02:35:27]: Serializing user: session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000390
+[02:35:27]: Serializing user: session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000390
+[02:35:27]: Serializing user: session/1CD36DF84459284D/A7HS8G7C9NLL/0000000390
+[02:35:27]: Serializing world: session/1CD36DF84459284D/0000000390
+[02:35:30]: Registering master server in Sing lobby
+[02:43:27]: Serializing user: session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000391
+[02:43:27]: Serializing user: session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000391
+[02:43:27]: Serializing user: session/1CD36DF84459284D/A7HS8G7C9NLL/0000000391
+[02:43:28]: Serializing world: session/1CD36DF84459284D/0000000391
+[02:43:35]: Registering master server in Sing lobby
+[02:51:26]: Registering master server in Sing lobby
+[02:51:28]: Serializing user: session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000392
+[02:51:28]: Serializing user: session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000392
+[02:51:28]: Serializing user: session/1CD36DF84459284D/A7HS8G7C9NLL/0000000392
+[02:51:28]: Serializing world: session/1CD36DF84459284D/0000000392
+[02:57:13]: Could not find anim [death] in bank [ghost]
+[02:57:13]: Serializing user: session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000393
+[02:59:28]: Serializing user: session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000393
+[02:59:28]: Serializing user: session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000393
+[02:59:28]: Serializing user: session/1CD36DF84459284D/A7HS8G7C9NLL/0000000393
+[02:59:29]: Serializing world: session/1CD36DF84459284D/0000000393
+[02:59:32]: Registering master server in Sing lobby
+[03:00:06]: [200] Account Communication Success (6)
+[03:00:06]: Received (KU_Z2tKYDz8) from TokenPurpose
+[03:00:08]: Could not find anim [idle_loop] in bank [ghost]
+[03:00:11]: Could not find anim [transform] in bank [wilson]
+[03:00:12]: Serializing user: session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000394
+[03:07:29]: Serializing user: session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000394
+[03:07:29]: Serializing user: session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000394
+[03:07:29]: Serializing user: session/1CD36DF84459284D/A7HS8G7C9NLL/0000000394
+[03:07:29]: Serializing world: session/1CD36DF84459284D/0000000394
+[03:07:34]: [IPC] Received shutdown signal.
+[03:07:34]: Serializing user: session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000395
+[03:07:34]: Serializing user: session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000395
+[03:07:34]: Serializing user: session/1CD36DF84459284D/A7HS8G7C9NLL/0000000395
+[03:07:35]: Serializing world: session/1CD36DF84459284D/0000000395
+[03:07:35]: Truncating to snapshot #395...
+[03:07:35]:  - session/1CD36DF84459284D/0000000365
+[03:07:35]:  - session/1CD36DF84459284D/0000000366
+[03:07:35]:  - session/1CD36DF84459284D/0000000367
+[03:07:35]:  - session/1CD36DF84459284D/0000000368
+[03:07:35]:  - session/1CD36DF84459284D/0000000369
+[03:07:35]:  - session/1CD36DF84459284D/0000000370
+[03:07:35]:  - session/1CD36DF84459284D/0000000371
+[03:07:35]:  - session/1CD36DF84459284D/0000000372
+[03:07:35]:  - session/1CD36DF84459284D/0000000373
+[03:07:35]:  - session/1CD36DF84459284D/0000000374
+[03:07:35]:  - session/1CD36DF84459284D/0000000375
+[03:07:35]:  - session/1CD36DF84459284D/0000000376
+[03:07:35]:  - session/1CD36DF84459284D/0000000377
+[03:07:35]:  - session/1CD36DF84459284D/0000000378
+[03:07:35]:  - session/1CD36DF84459284D/0000000379
+[03:07:35]:  - session/1CD36DF84459284D/0000000380
+[03:07:35]:  - session/1CD36DF84459284D/0000000381
+[03:07:35]:  - session/1CD36DF84459284D/0000000382
+[03:07:35]:  - session/1CD36DF84459284D/0000000383
+[03:07:35]:  - session/1CD36DF84459284D/0000000384
+[03:07:35]:  - session/1CD36DF84459284D/0000000385
+[03:07:35]:  - session/1CD36DF84459284D/0000000386
+[03:07:35]:  - session/1CD36DF84459284D/0000000387
+[03:07:35]:  - session/1CD36DF84459284D/0000000388
+[03:07:35]:  - session/1CD36DF84459284D/0000000389
+[03:07:35]:  - session/1CD36DF84459284D/A7HS8G7C9NLL/0000000389
+[03:07:35]:  - session/1CD36DF84459284D/A7HS8G7C9NLL/0000000388
+[03:07:35]:  - session/1CD36DF84459284D/A7HS8G7C9NLL/0000000387
+[03:07:35]:  - session/1CD36DF84459284D/A7HS8G7C9NLL/0000000386
+[03:07:35]:  - session/1CD36DF84459284D/A7HS8G7C9NLL/0000000385
+[03:07:35]:  - session/1CD36DF84459284D/A7HS8G7C9NLL/0000000384
+[03:07:35]:  - session/1CD36DF84459284D/A7HS8G7C9NLL/0000000383
+[03:07:35]:  - session/1CD36DF84459284D/A7HS8G7C9NLL/0000000370
+[03:07:35]:  - session/1CD36DF84459284D/A7HS8G7C9NLL/0000000369
+[03:07:35]:  - session/1CD36DF84459284D/A7HS8G7C9NLL/0000000362
+[03:07:35]:  - session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000389
+[03:07:35]:  - session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000388
+[03:07:35]:  - session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000387
+[03:07:35]:  - session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000386
+[03:07:35]:  - session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000385
+[03:07:35]:  - session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000384
+[03:07:35]:  - session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000383
+[03:07:35]:  - session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000382
+[03:07:35]:  - session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000381
+[03:07:35]:  - session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000380
+[03:07:35]:  - session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000379
+[03:07:35]:  - session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000378
+[03:07:35]:  - session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000377
+[03:07:35]:  - session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000376
+[03:07:35]:  - session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000375
+[03:07:35]:  - session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000374
+[03:07:35]:  - session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000373
+[03:07:35]:  - session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000372
+[03:07:35]:  - session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000371
+[03:07:35]:  - session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000370
+[03:07:35]:  - session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000369
+[03:07:35]:  - session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000363
+[03:07:35]:  - session/1CD36DF84459284D/A7MN6RBE8B81/0000000388
+[03:07:35]:  - session/1CD36DF84459284D/A7MN6RBE8B81/0000000387
+[03:07:35]:  - session/1CD36DF84459284D/A7MN6RBE8B81/0000000386
+[03:07:35]:  - session/1CD36DF84459284D/A7MN6RBE8B81/0000000385
+[03:07:35]:  - session/1CD36DF84459284D/A7MN6RBE8B81/0000000384
+[03:07:35]:  - session/1CD36DF84459284D/A7MN6RBE8B81/0000000383
+[03:07:35]:  - session/1CD36DF84459284D/A7MN6RBE8B81/0000000382
+[03:07:35]:  - session/1CD36DF84459284D/A7MN6RBE8B81/0000000381
+[03:07:35]:  - session/1CD36DF84459284D/A7MN6RBE8B81/0000000380
+[03:07:35]:  - session/1CD36DF84459284D/A7MN6RBE8B81/0000000379
+[03:07:35]:  - session/1CD36DF84459284D/A7MN6RBE8B81/0000000378
+[03:07:35]:  - session/1CD36DF84459284D/A7MN6RBE8B81/0000000377
+[03:07:35]:  - session/1CD36DF84459284D/A7MN6RBE8B81/0000000376
+[03:07:35]:  - session/1CD36DF84459284D/A7MN6RBE8B81/0000000375
+[03:07:35]:  - session/1CD36DF84459284D/A7MN6RBE8B81/0000000374
+[03:07:35]:  - session/1CD36DF84459284D/A7MN6RBE8B81/0000000373
+[03:07:35]:  - session/1CD36DF84459284D/A7MN6RBE8B81/0000000372
+[03:07:35]:  - session/1CD36DF84459284D/A7MN6RBE8B81/0000000332
+[03:07:35]:  - session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000389
+[03:07:35]:  - session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000388
+[03:07:35]:  - session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000387
+[03:07:35]:  - session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000386
+[03:07:35]:  - session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000385
+[03:07:35]:  - session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000384
+[03:07:35]:  - session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000383
+[03:07:35]:  - session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000382
+[03:07:35]:  - session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000381
+[03:07:35]:  - session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000380
+[03:07:35]:  - session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000379
+[03:07:35]:  - session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000378
+[03:07:35]:  - session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000377
+[03:07:35]:  - session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000376
+[03:07:35]:  - session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000375
+[03:07:35]:  - session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000374
+[03:07:35]:  - session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000373
+[03:07:35]:  - session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000372
+[03:07:35]:  - session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000370
+[03:07:35]:  - session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000369
+[03:07:35]:  - session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000363
+[03:07:35]:    96 file(s) removed
+[03:07:35]:  > session/1CD36DF84459284D/A7HS8G7C9NLL/savelocation
+[03:07:35]:  > session/1CD36DF84459284D/A7KC5NA8HNQ8/savelocation
+[03:07:35]:  > session/1CD36DF84459284D/A7NPHFO3FDQ9/savelocation
+[03:07:35]:    3 file(s) updated
+[03:07:35]: Removing server from Sing lobby
+[03:07:35]: [Shard] Stopping shard mode
+[03:07:35]: Collecting garbage...
+[03:07:36]: lua_gc took 0.24 seconds
+[03:07:36]: ~ShardLuaProxy()
+[03:07:36]: ~cEventLeaderboardProxy()
+[03:07:36]: ~ItemServerLuaProxy()
+[03:07:36]: ~InventoryLuaProxy()
+[03:07:36]: ~NetworkLuaProxy()
+[03:07:36]: ~SimLuaProxy()
+[03:07:36]: Cancelling LuaQueryCallback handle [309]
+[03:07:36]: Cancelling LuaQueryCallback handle [310]
+[03:07:36]: Cancelling LuaQueryCallback handle [311]
+[03:07:36]: lua_close took 0.49 seconds
+[03:07:36]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[03:07:36]: CurlRequestManager::ClientThread::Main() complete
+[03:07:36]: HttpClient2 discarded 0 callbacks.
+[03:07:36]: Shutting down

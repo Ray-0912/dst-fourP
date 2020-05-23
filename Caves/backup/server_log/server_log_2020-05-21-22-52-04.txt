@@ -1,0 +1,547 @@
+[00:00:00]: 
+System Memory:
+	Memory Load: 34%
+	Available Physical Memory: 10685m/16281m
+	Available Page File: 9614m/18713m
+	Available Virtual Memory: 3984m/4095m
+	Available Extended Virtual Memory: 0m
+[00:00:00]: 
+Process Memory:
+	Peak Working Set Size: 30m
+	Working Set Size: 30m
+	Quota Peak Page Pool Usage: 221k
+	Quota Page Pool Usage: 215k
+	Quota Peak Non Paged Pool Usage:17k
+	Quota Non Paged Pool Usage: 17k
+	Page File Usage: 5m
+	Peak Page File Usage: 5m
+[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogether/386450579/Cluster_1/Caves/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 408761
+[00:00:00]: Current time: Thu May 21 19:43:52 2020
+
+[00:00:00]: Don't Starve Together: 408761 WIN32
+[00:00:00]: Build Date: 5259
+[00:00:00]: Mode: 32-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -monitor_parent_process 12720 -persistent_storage_root APP:Klei/ -conf_dir DoNotStarveTogether -cluster Cluster_1 -fo -ownernetid 76561198346716307 -ownerdir 386450579 -backup_log_count 10 -backup_log_period 0 -shard Caves -sigprefix DST_Slave -region Sing 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: Initializing Minidump handler
+[00:00:00]: ....Done
+[00:00:00]: ....Done
+[00:00:00]: Fixing DPI
+[00:00:00]: ...Done
+[00:00:00]: THREAD - started 'GAClient' (9868)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: ProfileIndex:3.34
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: THREAD - started 'Ping Job Thread' (11780)
+[00:00:00]: Platform: 1
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Authorized application C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\bin\dontstarve_dedicated_server_nullrenderer.exe is enabled in the firewall.
+[00:00:00]: WindowsFirewall - Application already authorized
+[00:00:00]: Overriding region to Sing
+[00:00:00]: THREAD - started 'StreamInput' (2852)
+[00:00:00]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/386450579/client_save/blocklist.txt (Failure)
+[00:00:00]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/386450579/client_save/adminlist.txt (Failure)
+[00:00:00]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/386450579/client_save/whitelist.txt (Failure)
+[00:00:00]: Offline user ID: OU_76561198346716307
+[00:00:00]: Token retrieved from: APP:Klei//DoNotStarveTogether/386450579/Cluster_1/cluster_token.txt
+[00:00:00]: Token retrieved from: APP:Klei//DoNotStarveTogether/386450579/Cluster_1/cluster_token.txt
+[00:00:00]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 10 家用版
+    version                   10.0.18362
+    architecture              64 位元
+    platformSpecific          SP 0.0
+  CPU                       
+    numCores                  4
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+    name                      Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz
+    manufacturer              GenuineIntel
+    clockSpeed                3401
+  RAM                       
+    megsOfRam                 16384
+  GPU                       
+    name                      Radeon Pro 560
+    driverDate                20170720000000.000000-000
+    megsOfRam                 4095
+    refreshRate               60
+    videoModeDescription      4096 x 2304 x 4294967296 色彩
+    driverVersion             22.19.170.1536
+
+[00:00:00]: cGame::InitializeOnMainThread
+[00:00:00]: Renderer initialize: Okay
+[00:00:00]: AnimManager initialize: Okay
+[00:00:00]: Buffers initialize: Okay
+[00:00:00]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:00]: GameSpecific initialize: Okay
+[00:00:00]: cGame::StartPlaying
+[00:00:00]: LOADING LUA
+[00:00:00]: DoLuaFile scripts/main.lua
+[00:00:00]: DoLuaFile loading buffer scripts/main.lua
+[00:00:00]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:00:01]:   taskgrouplist:	default	联机版	
+[00:00:01]:   taskgrouplist:	classic	经典	
+[00:00:01]:   taskgrouplist:	cave_default	地下	
+[00:00:01]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:01]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:01]: running main.lua
+	
+[00:00:01]: loaded modindex	
+[00:00:01]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:01]: DownloadMods(0)
+[00:00:02]: modoverrides.lua enabling workshop-347079953	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-347079953_CLIENT	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
+[00:00:02]: Overriding mod workshop-347079953's option DFV_Language with value EN	
+[00:00:02]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
+[00:00:02]: Loading mod: workshop-347079953 (Display food values) Version:1.61	
+[00:00:02]: Mod: workshop-347079953 (Display food values)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: workshop-347079953 (Display food values)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: workshop-347079953 (Display food values)	Loading modmain.lua	
+[00:00:02]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:03]: LOADING LUA SUCCESS
+[00:00:03]: Registering mod namespace "food item"
+[00:00:03]: PlayerDeaths could not load morgue	
+[00:00:03]: PlayerHistory could not load player_history	
+[00:00:03]: ServerPreferences could not load server_preferences	
+[00:00:03]: bloom_enabled	false	
+[00:00:03]: loaded saveindex	
+[00:00:03]: OnFilesLoaded()	
+[00:00:03]: OnUpdatePurchaseStateComplete	
+[00:00:03]: Klump load on boot started.	
+[00:00:03]: Klump files loaded: 	0	
+[00:00:05]: Mod: workshop-347079953 (Display food values)	Registering prefabs	
+[00:00:05]: Mod: workshop-347079953 (Display food values)	  Registering default mod prefab	
+[00:00:05]: 	Load FE	
+[00:00:06]: 	Load FE: done	
+[00:00:06]: THREAD - started 'FilesExistAsyncThread' (11020)
+[00:00:06]: FilesExistAsyncThread started (15361 files)...
+[00:00:06]: Check for write access: TRUE
+[00:00:06]: Check for read access: TRUE
+[00:00:06]: ModIndex: Load sequence finished successfully.	
+[00:00:06]: Reset() returning
+[00:00:06]: [IPC] Signal 'DST_Slave_Kill' opened  #00000554
+[00:00:06]: [IPC] Registering handler for signal #00000554
+[00:00:06]: [IPC] Handle #00000554 added to the Eventhandles
+[00:00:06]: [IPC] Signal 'DST_Slave_Starting' opened  #00000504
+[00:00:06]: [IPC] Sending signal... #00000504
+[00:00:06]: [200] Account Communication Success (6)
+[00:00:06]: Received (KU_Z2tKYDz8) from TokenPurpose
+[00:00:06]: Starting Dedicated Server Game	
+[00:00:06]: Network tick rate: U=15(2), D=0
+[00:00:06]: About to start a server with the following settings:
+[00:00:06]:   Dedicated: true
+[00:00:06]:   Online: true
+[00:00:06]:   Passworded: false
+[00:00:06]:   ServerPort: 10998
+[00:00:06]:   SteamAuthPort: 8767
+[00:00:06]:   SteamMasterServerPort: 27017
+[00:00:06]:   ClanID: false
+[00:00:06]:   ClanOnly: false
+[00:00:06]:   ClanAdmin: false
+[00:00:06]:   LanOnly: false
+[00:00:06]:   FriendsOnly: true
+[00:00:06]:   EnableAutosaver: true
+[00:00:06]:   EncodeUserPath: true
+[00:00:06]:   PVP: false
+[00:00:06]:   MaxPlayers: 6
+[00:00:06]:   GameMode: survival
+[00:00:06]:   OverridenDNS: 
+[00:00:06]:   PauseWhenEmpty: true
+[00:00:06]:   IdleTimeout: 1800s
+[00:00:06]:   VoteEnabled: false
+[00:00:06]:   InternetBroadcasting: true
+[00:00:06]:   Intent: madness
+[00:00:06]: [Warning] Could not confirm port 10998 is open in the firewall. 
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-347079953	
+[00:00:06]: Online Server Started on port: 10998
+[00:00:06]: Collecting garbage...
+[00:00:07]: lua_gc took 0.03 seconds
+[00:00:07]: ~ShardLuaProxy()
+[00:00:07]: ~cEventLeaderboardProxy()
+[00:00:07]: ~ItemServerLuaProxy()
+[00:00:07]: ~InventoryLuaProxy()
+[00:00:07]: ~NetworkLuaProxy()
+[00:00:07]: ~SimLuaProxy()
+[00:00:07]: FilesExistAsyncThread aborted.
+[00:00:07]: ... FilesExistAsyncThread complete
+[00:00:07]: lua_close took 0.07 seconds
+[00:00:07]: ReleaseAll
+[00:00:07]: ReleaseAll Finished
+[00:00:07]: cGame::StartPlaying
+[00:00:07]: LOADING LUA
+[00:00:07]: DoLuaFile scripts/main.lua
+[00:00:07]: DoLuaFile loading buffer scripts/main.lua
+[00:00:07]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:00:08]:   taskgrouplist:	default	联机版	
+[00:00:08]:   taskgrouplist:	classic	经典	
+[00:00:08]:   taskgrouplist:	cave_default	地下	
+[00:00:08]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:08]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:08]: running main.lua
+	
+[00:00:08]: unloading prefabs for mod MOD_workshop-347079953	
+[00:00:08]: loaded modindex	
+[00:00:08]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:08]: modoverrides.lua enabling workshop-347079953	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-347079953	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
+[00:00:08]: Overriding mod workshop-347079953's option DFV_Language with value EN	
+[00:00:08]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
+[00:00:08]: Loading mod: workshop-347079953 (Display food values) Version:1.61	
+[00:00:08]: Mod: workshop-347079953 (Display food values)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-347079953 (Display food values)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-347079953 (Display food values)	Loading modmain.lua	
+[00:00:10]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:10]: LOADING LUA SUCCESS
+[00:00:10]: Registering mod namespace "food item"
+[00:00:10]: PlayerDeaths could not load morgue	
+[00:00:10]: PlayerHistory could not load player_history	
+[00:00:10]: ServerPreferences could not load server_preferences	
+[00:00:10]: bloom_enabled	false	
+[00:00:10]: loaded saveindex	
+[00:00:10]: OnFilesLoaded()	
+[00:00:10]: OnUpdatePurchaseStateComplete	
+[00:00:10]: Loading world: session/5FE34B9A55277953/0000000370	
+[00:00:11]: Save file is at version 5.04	
+[00:00:11]: Klump load on boot started.	
+[00:00:11]: Klump files loaded: 	0	
+[00:00:11]: 	Unload FE	
+[00:00:11]: 	Unload FE done	
+[00:00:25]: Mod: workshop-347079953 (Display food values)	Registering prefabs	
+[00:00:25]: Mod: workshop-347079953 (Display food values)	  Registering default mod prefab	
+[00:00:25]: 	LOAD BE	
+[00:00:28]: 	LOAD BE: done	
+[00:00:28]: Begin Session: 5FE34B9A55277953
+[00:00:29]: saving to server_temp/server_save	
+[00:00:29]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:29]: Loading 16 new character(s)	
+[00:00:29]: Total 16 character(s) loaded	
+[00:00:33]: Loading Nav Grid	
+[00:00:33]: World generated on version 408761, using seed: 1589207358	
+[00:00:33]: setting 	summerlength	15	
+[00:00:33]: setting 	isnightmaredawn	false	
+[00:00:33]: setting 	elapseddaysinseason	1	
+[00:00:33]: setting 	isfullmoon	false	
+[00:00:33]: setting 	moisture	2676.7900390625	
+[00:00:33]: setting 	springlength	20	
+[00:00:33]: setting 	isnightmarewild	false	
+[00:00:33]: setting 	moonphase	new	
+[00:00:33]: setting 	precipitationrate	0	
+[00:00:33]: setting 	iswet	false	
+[00:00:33]: setting 	isnewmoon	false	
+[00:00:33]: setting 	iswinter	false	
+[00:00:33]: setting 	israining	false	
+[00:00:33]: setting 	isnightmarewarn	false	
+[00:00:33]: setting 	precipitation	none	
+[00:00:33]: setting 	cavephase	dusk	
+[00:00:33]: setting 	moistureceil	11628.752929688	
+[00:00:33]: setting 	isday	false	
+[00:00:33]: setting 	iscaveday	false	
+[00:00:33]: setting 	season	autumn	
+[00:00:33]: setting 	timeinphase	0.63371461232503	
+[00:00:33]: setting 	temperature	31.329625190344	
+[00:00:33]: setting 	isnightmarecalm	true	
+[00:00:33]: setting 	isnight	true	
+[00:00:33]: setting 	isdusk	false	
+[00:00:33]: setting 	iscavedusk	true	
+[00:00:33]: setting 	isautumn	true	
+[00:00:33]: setting 	issnowing	false	
+[00:00:33]: setting 	iswaxingmoon	true	
+[00:00:33]: setting 	pop	0.2090130972979	
+[00:00:33]: setting 	snowlevel	0	
+[00:00:33]: setting 	issnowcovered	false	
+[00:00:33]: setting 	autumnlength	20	
+[00:00:33]: setting 	phase	night	
+[00:00:33]: setting 	nightmaretime	171.65562411083	
+[00:00:33]: setting 	winterlength	15	
+[00:00:33]: setting 	isspring	false	
+[00:00:33]: setting 	nightmarephase	calm	
+[00:00:33]: setting 	remainingdaysinseason	19	
+[00:00:33]: setting 	cycles	351	
+[00:00:33]: setting 	iscavenight	false	
+[00:00:33]: setting 	nightmaretimeinphase	0.47682117808565	
+[00:00:33]: setting 	wetness	0	
+[00:00:33]: setting 	time	0.72092865308126	
+[00:00:33]: setting 	issummer	false	
+[00:00:33]: [Shard] Slave is waiting for LUA...
+[00:00:36]: Reconstructing topology	
+[00:00:36]: 	...Sorting points	
+[00:00:36]: 	...Sorting edges	
+[00:00:36]: 	...Connecting nodes	
+[00:00:36]: 	...Validating connections	
+[00:00:36]: 	...Housekeeping	
+[00:00:36]: 	...Done!	
+[00:00:36]: 1 uploads added to server. From server_temp
+[00:00:36]: About to start a shard with these settings:
+[00:00:36]:   ShardName: Caves
+[00:00:36]:   ShardID: 2712511313
+[00:00:36]:   ShardRole: SLAVE
+[00:00:36]:   MasterHost: 127.0.0.1
+[00:00:36]:   MasterBind: (null)
+[00:00:36]:   MasterPort: 10888
+[00:00:36]: [Shard] Connecting to master...
+[00:00:36]: Telling Client our new session identifier: 5FE34B9A55277953
+[00:00:36]: Check for write access: TRUE
+[00:00:36]: Check for read access: TRUE
+[00:00:36]: ModIndex: Load sequence finished successfully.	
+[00:00:36]: Reset() returning
+[00:00:36]: [Steam] SteamGameServer_Init(8767, 10998, 27017)
+[00:00:37]: [Steam] SteamGameServer_Init success
+[00:00:37]: [Shard] Connection to master failed. Waiting to reconnect...
+[00:00:37]: Validating portal[5] <-> 1[5] (inactive)	
+[00:00:37]: Validating portal[9] <-> 1[9] (inactive)	
+[00:00:37]: Validating portal[7] <-> 1[7] (inactive)	
+[00:00:37]: Validating portal[6] <-> 1[6] (inactive)	
+[00:00:37]: Validating portal[8] <-> 1[8] (inactive)	
+[00:00:37]: Validating portal[10] <-> 1[10] (inactive)	
+[00:00:37]: Validating portal[2] <-> 1[2] (inactive)	
+[00:00:37]: Validating portal[4] <-> 1[4] (inactive)	
+[00:00:37]: Validating portal[1] <-> 1[1] (inactive)	
+[00:00:37]: Validating portal[3] <-> 1[3] (inactive)	
+[00:00:38]: Gameserver logged on to Steam, assigned identity steamid:90135455029070849
+[00:00:42]: About to start a shard with these settings:
+[00:00:42]:   ShardName: Caves
+[00:00:42]:   ShardID: 2712511313
+[00:00:42]:   ShardRole: SLAVE
+[00:00:42]:   MasterHost: 127.0.0.1
+[00:00:42]:   MasterBind: (null)
+[00:00:42]:   MasterPort: 10888
+[00:00:42]: [Shard] Connecting to master...
+[00:00:42]: [Shard] Sending slave information to master...
+[00:00:42]: Registering slave in Sing lobby
+[00:00:43]: [Shard] Slave is now ready!
+[00:00:43]: World 1 is now connected	
+[00:00:43]: Validating portal[5] <-> 1[5] (active)	
+[00:00:43]: Validating portal[9] <-> 1[9] (active)	
+[00:00:43]: Validating portal[7] <-> 1[7] (active)	
+[00:00:43]: Validating portal[6] <-> 1[6] (active)	
+[00:00:43]: Validating portal[8] <-> 1[8] (active)	
+[00:00:43]: Validating portal[10] <-> 1[10] (active)	
+[00:00:43]: Validating portal[2] <-> 1[2] (active)	
+[00:00:43]: Validating portal[4] <-> 1[4] (active)	
+[00:00:43]: Validating portal[1] <-> 1[1] (active)	
+[00:00:43]: Validating portal[3] <-> 1[3] (active)	
+[00:00:44]: [Shard] Slave LUA is now ready!
+[00:00:44]: [IPC] Signal 'DST_Slave_Ready' opened  #00000638
+[00:00:44]: [IPC] Sending signal... #00000638
+[00:00:44]: Sim paused
+[00:01:00]: Sim unpaused
+[00:03:16]: Serializing world: session/5FE34B9A55277953/0000000371
+[00:03:16]: Truncating to snapshot #371...
+[00:03:16]:  - session/5FE34B9A55277953/0000000365
+[00:03:16]:  - session/5FE34B9A55277953/A7HS8G7C9NLL/0000000365
+[00:03:16]:  - session/5FE34B9A55277953/A7KC5NA8HNQ8/0000000365
+[00:03:16]:  - session/5FE34B9A55277953/A7NPHFO3FDQ9/0000000365
+[00:03:16]:    4 file(s) removed
+[00:05:42]: Registering slave in Sing lobby
+[00:07:31]: [Shard] #1 -> session/5FE34B9A55277953/A7NPHFO3FDQ9/0000000372
+[00:07:31]: [Shard] Received migration #1 data for (KU_-OlmDxT9)
+[00:07:36]: [P2P] Session request for '76561198517543938'
+[00:07:40]: [P2P] Create session: 88.183.255.205|1 '76561198517543938'
+[00:07:40]: [P2P] Received from 88.183.255.205|1 '76561198517543938'
+[00:07:40]: [P2P] Sent to 88.183.255.205|1 '76561198517543938'
+[00:07:41]: New incoming connection 88.183.255.205|1 <1843442079575727301>
+[00:07:41]: Client connected from 88.183.255.205|1 <1843442079575727301>
+[00:07:41]: ValidateGameSessionToken pgs-usc^KU_-OlmDxT9^DontStarveTogether^6xjNUIg07RXzDSLVUjcUXvEGxIelTRLoBiCzLlV+HLk= for <1843442079575727301>
+[00:07:42]: Client authenticated: (KU_-OlmDxT9) wawadgccc
+[00:07:42]: [Steam] SendUserConnectAndAuthenticate for '76561198517543938'
+[00:07:42]: [Steam] Authenticated client '76561198517543938'
+[00:07:42]: [Shard] Completed incoming migration #1 for (KU_-OlmDxT9)
+[00:08:00]: Resuming user: session/5FE34B9A55277953/A7NPHFO3FDQ9/0000000372
+[00:08:00]: Player will spawn close to portal #3	
+[00:08:00]: Spawning player at: [Load] (-577.59, 0.00, 29.05)	
+[00:08:38]: Activating portal[3] to 1	
+[00:08:39]: Serializing user: session/5FE34B9A55277953/A7NPHFO3FDQ9/0000000372
+[00:08:39]: [Shard] Migration request: (KU_-OlmDxT9) to [SHDMASTER](1)
+[00:08:39]: [Shard] #2 <- session/5FE34B9A55277953/A7NPHFO3FDQ9/0000000372
+[00:08:39]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[00:08:39]: Ignored request to resume during migration
+[00:08:39]: [Steam] SendUserDisconnect for '76561198517543938'
+[00:10:42]: Registering slave in Sing lobby
+[00:11:17]: Serializing world: session/5FE34B9A55277953/0000000372
+[00:11:17]: Truncating to snapshot #372...
+[00:11:17]:  - session/5FE34B9A55277953/0000000366
+[00:11:17]:  - session/5FE34B9A55277953/A7HS8G7C9NLL/0000000366
+[00:11:17]:  - session/5FE34B9A55277953/A7KC5NA8HNQ8/0000000366
+[00:11:17]:  - session/5FE34B9A55277953/A7NPHFO3FDQ9/0000000366
+[00:11:17]:    4 file(s) removed
+[00:15:42]: Registering slave in Sing lobby
+[00:18:43]: [P2P] Session timed out for '76561198517543938'
+[00:18:43]: [P2P] Remove session: 88.183.255.205|1 '76561198517543938'
+[00:19:17]: Serializing world: session/5FE34B9A55277953/0000000373
+[00:19:17]: Truncating to snapshot #373...
+[00:19:17]:  - session/5FE34B9A55277953/0000000367
+[00:19:17]:  - session/5FE34B9A55277953/A7HS8G7C9NLL/0000000367
+[00:19:17]:  - session/5FE34B9A55277953/A7KC5NA8HNQ8/0000000367
+[00:19:17]:  - session/5FE34B9A55277953/A7NPHFO3FDQ9/0000000367
+[00:19:17]:    4 file(s) removed
+[00:20:42]: Registering slave in Sing lobby
+[00:25:42]: Registering slave in Sing lobby
+[00:27:18]: Serializing world: session/5FE34B9A55277953/0000000374
+[00:27:18]: Truncating to snapshot #374...
+[00:27:18]:  - session/5FE34B9A55277953/0000000368
+[00:27:18]:  - session/5FE34B9A55277953/A7HS8G7C9NLL/0000000368
+[00:27:18]:  - session/5FE34B9A55277953/A7KC5NA8HNQ8/0000000368
+[00:27:18]:  - session/5FE34B9A55277953/A7NPHFO3FDQ9/0000000368
+[00:27:18]:    4 file(s) removed
+[00:30:06]: [200] Account Communication Success (6)
+[00:30:06]: Received (KU_Z2tKYDz8) from TokenPurpose
+[00:30:42]: Registering slave in Sing lobby
+[00:35:18]: Serializing world: session/5FE34B9A55277953/0000000375
+[00:35:18]: Truncating to snapshot #375...
+[00:35:18]:  - session/5FE34B9A55277953/0000000369
+[00:35:18]:    1 file(s) removed
+[00:35:42]: Registering slave in Sing lobby
+[00:40:42]: Registering slave in Sing lobby
+[00:43:19]: Serializing world: session/5FE34B9A55277953/0000000376
+[00:43:19]: Truncating to snapshot #376...
+[00:43:19]:  - session/5FE34B9A55277953/0000000370
+[00:43:19]:    1 file(s) removed
+[00:45:42]: Registering slave in Sing lobby
+[00:50:42]: Registering slave in Sing lobby
+[00:51:19]: Serializing world: session/5FE34B9A55277953/0000000377
+[00:51:19]: Truncating to snapshot #377...
+[00:51:19]:  - session/5FE34B9A55277953/0000000371
+[00:51:19]:  - session/5FE34B9A55277953/A7NPHFO3FDQ9/0000000369
+[00:51:19]:    2 file(s) removed
+[00:55:42]: Registering slave in Sing lobby
+[00:59:20]: Serializing world: session/5FE34B9A55277953/0000000378
+[00:59:20]: Truncating to snapshot #378...
+[00:59:20]:  - session/5FE34B9A55277953/0000000372
+[00:59:20]:    1 file(s) removed
+[01:00:06]: [200] Account Communication Success (6)
+[01:00:06]: Received (KU_Z2tKYDz8) from TokenPurpose
+[01:00:42]: Registering slave in Sing lobby
+[01:05:42]: Registering slave in Sing lobby
+[01:07:21]: Serializing world: session/5FE34B9A55277953/0000000379
+[01:07:21]: Truncating to snapshot #379...
+[01:07:21]:  - session/5FE34B9A55277953/0000000373
+[01:07:21]:    1 file(s) removed
+[01:10:42]: Registering slave in Sing lobby
+[01:15:21]: Serializing world: session/5FE34B9A55277953/0000000380
+[01:15:21]: Truncating to snapshot #380...
+[01:15:21]:  - session/5FE34B9A55277953/0000000374
+[01:15:21]:    1 file(s) removed
+[01:15:42]: Registering slave in Sing lobby
+[01:20:42]: Registering slave in Sing lobby
+[01:23:22]: Serializing world: session/5FE34B9A55277953/0000000381
+[01:23:22]: Truncating to snapshot #381...
+[01:23:22]:  - session/5FE34B9A55277953/0000000375
+[01:23:22]:    1 file(s) removed
+[01:25:42]: Registering slave in Sing lobby
+[01:30:06]: [200] Account Communication Success (6)
+[01:30:06]: Received (KU_Z2tKYDz8) from TokenPurpose
+[01:30:42]: Registering slave in Sing lobby
+[01:31:22]: Serializing world: session/5FE34B9A55277953/0000000382
+[01:31:22]: Truncating to snapshot #382...
+[01:31:22]:  - session/5FE34B9A55277953/0000000376
+[01:31:22]:    1 file(s) removed
+[01:35:42]: Registering slave in Sing lobby
+[01:39:23]: Serializing world: session/5FE34B9A55277953/0000000383
+[01:39:23]: Truncating to snapshot #383...
+[01:39:23]:  - session/5FE34B9A55277953/0000000377
+[01:39:23]:    1 file(s) removed
+[01:40:42]: Registering slave in Sing lobby
+[01:45:42]: Registering slave in Sing lobby
+[01:47:23]: Serializing world: session/5FE34B9A55277953/0000000384
+[01:47:23]: Truncating to snapshot #384...
+[01:47:23]:  - session/5FE34B9A55277953/0000000378
+[01:47:23]:    1 file(s) removed
+[01:50:42]: Registering slave in Sing lobby
+[01:55:24]: Serializing world: session/5FE34B9A55277953/0000000385
+[01:55:24]: Truncating to snapshot #385...
+[01:55:24]:  - session/5FE34B9A55277953/0000000379
+[01:55:24]:    1 file(s) removed
+[01:55:42]: Registering slave in Sing lobby
+[02:00:06]: [200] Account Communication Success (6)
+[02:00:06]: Received (KU_Z2tKYDz8) from TokenPurpose
+[02:00:42]: Registering slave in Sing lobby
+[02:03:24]: Serializing world: session/5FE34B9A55277953/0000000386
+[02:03:24]: Truncating to snapshot #386...
+[02:03:24]:  - session/5FE34B9A55277953/0000000380
+[02:03:24]:    1 file(s) removed
+[02:05:42]: Registering slave in Sing lobby
+[02:10:42]: Registering slave in Sing lobby
+[02:11:25]: Serializing world: session/5FE34B9A55277953/0000000387
+[02:11:25]: Truncating to snapshot #387...
+[02:11:25]:  - session/5FE34B9A55277953/0000000381
+[02:11:25]:    1 file(s) removed
+[02:15:42]: Registering slave in Sing lobby
+[02:19:26]: Serializing world: session/5FE34B9A55277953/0000000388
+[02:19:26]: Truncating to snapshot #388...
+[02:19:26]:  - session/5FE34B9A55277953/0000000382
+[02:19:26]:    1 file(s) removed
+[02:20:42]: Registering slave in Sing lobby
+[02:25:42]: Registering slave in Sing lobby
+[02:27:26]: Serializing world: session/5FE34B9A55277953/0000000389
+[02:27:26]: Truncating to snapshot #389...
+[02:27:26]:  - session/5FE34B9A55277953/0000000383
+[02:27:26]:    1 file(s) removed
+[02:30:06]: [200] Account Communication Success (6)
+[02:30:06]: Received (KU_Z2tKYDz8) from TokenPurpose
+[02:30:42]: Registering slave in Sing lobby
+[02:35:27]: Serializing world: session/5FE34B9A55277953/0000000390
+[02:35:27]: Truncating to snapshot #390...
+[02:35:27]:  - session/5FE34B9A55277953/0000000384
+[02:35:27]:    1 file(s) removed
+[02:35:42]: Registering slave in Sing lobby
+[02:40:42]: Registering slave in Sing lobby
+[02:43:27]: Serializing world: session/5FE34B9A55277953/0000000391
+[02:43:27]: Truncating to snapshot #391...
+[02:43:27]:  - session/5FE34B9A55277953/0000000385
+[02:43:27]:    1 file(s) removed
+[02:45:42]: Registering slave in Sing lobby
+[02:50:42]: Registering slave in Sing lobby
+[02:51:28]: Serializing world: session/5FE34B9A55277953/0000000392
+[02:51:28]: Truncating to snapshot #392...
+[02:51:28]:  - session/5FE34B9A55277953/0000000386
+[02:51:28]:    1 file(s) removed
+[02:55:42]: Registering slave in Sing lobby
+[02:59:28]: Serializing world: session/5FE34B9A55277953/0000000393
+[02:59:28]: Truncating to snapshot #393...
+[02:59:28]:  - session/5FE34B9A55277953/0000000387
+[02:59:28]:    1 file(s) removed
+[03:00:06]: [200] Account Communication Success (6)
+[03:00:06]: Received (KU_Z2tKYDz8) from TokenPurpose
+[03:00:42]: Registering slave in Sing lobby
+[03:05:42]: Registering slave in Sing lobby
+[03:07:29]: Serializing world: session/5FE34B9A55277953/0000000394
+[03:07:29]: Truncating to snapshot #394...
+[03:07:29]:  - session/5FE34B9A55277953/0000000388
+[03:07:29]:    1 file(s) removed
+[03:07:35]: [Shard] We have been disconnected from the master. Waiting to reconnect...
+[03:07:35]: Sim paused
+[03:07:36]: [IPC] Received shutdown signal.
+[03:07:37]: Serializing world: session/5FE34B9A55277953/0000000395
+[03:07:37]: Truncating to snapshot #395...
+[03:07:37]:  - session/5FE34B9A55277953/0000000389
+[03:07:37]:    1 file(s) removed
+[03:07:37]: [Shard] Stopping shard mode
+[03:07:37]: Collecting garbage...
+[03:07:37]: lua_gc took 0.14 seconds
+[03:07:37]: ~ShardLuaProxy()
+[03:07:37]: ~cEventLeaderboardProxy()
+[03:07:37]: ~ItemServerLuaProxy()
+[03:07:37]: ~InventoryLuaProxy()
+[03:07:37]: ~NetworkLuaProxy()
+[03:07:37]: ~SimLuaProxy()
+[03:07:37]: lua_close took 0.24 seconds
+[03:07:37]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[03:07:37]: CurlRequestManager::ClientThread::Main() complete
+[03:07:37]: HttpClient2 discarded 0 callbacks.
+[03:07:37]: Shutting down

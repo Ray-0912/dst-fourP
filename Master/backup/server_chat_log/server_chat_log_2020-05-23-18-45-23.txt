@@ -1,0 +1,16 @@
+[00:00:38]: [Join Announcement] limwris0912
+[00:02:51]: [Join Announcement] wawadgccc
+[00:03:09]: [Join Announcement] ray19721125
+[00:03:55]: [Join Announcement] 北極小熊
+[00:25:19]: [Death Announcement] limwris0912 死于： 麋鹿鹅。她变成了可怕的鬼魂！
+[00:32:53]: [Resurrect Announcement] limwris0912 复活自： ray19721125.
+[00:45:41]: [Skin Announcement] ray19721125 body_webber_rose
+[00:46:45]: [Leave Announcement] ray19721125
+[00:52:12]: [Death Announcement] limwris0912 死于： 饥饿。她变成了可怕的鬼魂！
+[00:52:33]: [Skin Announcement] 北極小熊 body_polo_yellow_goldenrod
+[00:52:44]: [Resurrect Announcement] limwris0912 复活自： 北極小熊.
+[00:57:04]: [Leave Announcement] 北極小熊
+[00:57:20]: [Skin Announcement] wawadgccc legs_waxwell_vampire
+[01:02:58]: [Skin Announcement] limwris0912 hand_wortox_survivor
+[01:05:06]: [Leave Announcement] wawadgccc
+[01:05:10]: [Leave Announcement] limwris0912

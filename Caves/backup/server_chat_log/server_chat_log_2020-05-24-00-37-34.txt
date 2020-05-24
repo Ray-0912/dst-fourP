@@ -1,0 +1,27 @@
+[00:00:52]: [Join Announcement] limwris0912
+[00:01:08]: [Join Announcement] ray19721125
+[00:02:15]: [Join Announcement] wawadgccc
+[00:08:36]: [Skin Announcement] ray19721125 hand_shortgloves_black_scribble
+[00:08:48]: [Skin Announcement] limwris0912 feet_webber_magma
+[00:44:47]: [Skin Announcement] wawadgccc hand_shortgloves_navy_midnight
+[00:45:14]: [Join Announcement] 北極小熊
+[01:05:34]: [Death Announcement] limwris0912 死于： 蜘蛛战士。她变成了可怕的鬼魂！
+[01:06:32]: [Resurrect Announcement] limwris0912 复活自： ray19721125.
+[01:09:32]: [Death Announcement] limwris0912 死于： 蜘蛛战士。她变成了可怕的鬼魂！
+[01:10:10]: [Resurrect Announcement] limwris0912 复活自： 北極小熊.
+[01:11:14]: [Death Announcement] wawadgccc 死于： 尖喙的恐怖。她变成了可怕的鬼魂！
+[01:11:31]: [Resurrect Announcement] wawadgccc 复活自： limwris0912.
+[01:14:23]: [Death Announcement] limwris0912 死于： 蜘蛛。她变成了可怕的鬼魂！
+[01:15:09]: [Resurrect Announcement] limwris0912 复活自： ray19721125.
+[01:16:37]: [Skin Announcement] ray19721125 legs_skirt_basic_tan_cream
+[01:20:08]: [Death Announcement] ray19721125 死于： 黑暗。她变成了可怕的鬼魂！
+[01:22:24]: [Skin Announcement] limwris0912 body_trimmed_blouse_blue_sky
+[01:33:50]: [Resurrect Announcement] ray19721125 复活自： 北極小熊.
+[01:39:54]: [Leave Announcement] ray19721125
+[01:47:45]: [Death Announcement] limwris0912 死于： 企鸥。她变成了可怕的鬼魂！
+[01:49:05]: [Resurrect Announcement] limwris0912 复活自： 北極小熊.
+[01:50:13]: [Leave Announcement] 北極小熊
+[01:50:48]: [Skin Announcement] wawadgccc feet_loafers_brown_beaver
+[01:58:36]: [Death Announcement] wawadgccc 死于： 冻伤。她变成了可怕的鬼魂！
+[02:01:39]: [Resurrect Announcement] wawadgccc 复活自： limwris0912.
+[02:03:44]: [Join Announcement] 北極小熊

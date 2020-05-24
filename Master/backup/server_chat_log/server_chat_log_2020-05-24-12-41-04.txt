@@ -1,0 +1,17 @@
+[00:00:41]: [Join Announcement] limwris0912
+[00:01:36]: [Join Announcement] wawadgccc
+[00:01:51]: [Join Announcement] 北極小熊
+[00:18:25]: [Skin Announcement] limwris0912 hand_warly_rose
+[00:18:27]: [Skin Announcement] 北極小熊 legs_wormwood_cactus
+[00:43:51]: [Skin Announcement] wawadgccc feet_sneakers_brown_umber
+[00:56:36]: [Death Announcement] limwris0912 死于： 兔人。她变成了可怕的鬼魂！
+[00:56:46]: [Resurrect Announcement] limwris0912 复活自： wawadgccc.
+[01:08:20]: [Death Announcement] limwris0912 死于： 蜘蛛女王。她变成了可怕的鬼魂！
+[01:12:37]: [Resurrect Announcement] limwris0912 复活自： wawadgccc.
+[01:16:53]: [Skin Announcement] 北極小熊 legs_pinstripe_pants_brown_chocolate
+[01:39:55]: [Skin Announcement] limwris0912 legs_jeans_black_scribble
+[01:50:48]: [Skin Announcement] wawadgccc body_trenchcoat_yellow_straw
+[02:07:05]: [Skin Announcement] 北極小熊 legs_pants_basic_blue_sky
+[02:16:45]: [Leave Announcement] 北極小熊
+[02:16:45]: [Leave Announcement] limwris0912
+[02:16:45]: [Leave Announcement] wawadgccc

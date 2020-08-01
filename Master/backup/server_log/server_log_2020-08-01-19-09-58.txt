@@ -1,0 +1,449 @@
+[00:00:00]: 
+System Memory:
+	Memory Load: 36%
+	Available Physical Memory: 10394m/16281m
+	Available Page File: 7865m/18713m
+	Available Virtual Memory: 3985m/4095m
+	Available Extended Virtual Memory: 0m
+[00:00:00]: 
+Process Memory:
+	Peak Working Set Size: 30m
+	Working Set Size: 30m
+	Quota Peak Page Pool Usage: 221k
+	Quota Page Pool Usage: 216k
+	Quota Peak Non Paged Pool Usage:17k
+	Quota Non Paged Pool Usage: 16k
+	Page File Usage: 6m
+	Peak Page File Usage: 6m
+[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogether/386450579/Cluster_1/Master/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 422596
+[00:00:00]: Current time: Sat Aug 01 18:50:01 2020
+
+[00:00:00]: Don't Starve Together: 422596 WIN32
+[00:00:00]: Build Date: 5432
+[00:00:00]: Mode: 32-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -monitor_parent_process 3196 -persistent_storage_root APP:Klei/ -conf_dir DoNotStarveTogether -cluster Cluster_1 -fo -ownernetid 76561198346716307 -ownerdir 386450579 -backup_log_count 10 -backup_log_period 0 -shard Master -sigprefix DST_Master -region Sing 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: Initializing Minidump handler
+[00:00:00]: ....Done
+[00:00:00]: ....Done
+[00:00:00]: Fixing DPI
+[00:00:00]: ...Done
+[00:00:00]: THREAD - started 'GAClient' (12892)
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: ProfileIndex:3.48
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: Platform: 1
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: THREAD - started 'Ping Job Thread' (6556)
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Authorized application C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\bin\dontstarve_dedicated_server_nullrenderer.exe is enabled in the firewall.
+[00:00:00]: WindowsFirewall - Application already authorized
+[00:00:00]: Overriding region to Sing
+[00:00:00]: THREAD - started 'StreamInput' (13384)
+[00:00:00]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/386450579/client_save/blocklist.txt (Failure)
+[00:00:00]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/386450579/client_save/adminlist.txt (Failure)
+[00:00:00]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/386450579/client_save/whitelist.txt (Failure)
+[00:00:00]: Offline user ID: OU_76561198346716307
+[00:00:00]: Token retrieved from: APP:Klei//DoNotStarveTogether/386450579/Cluster_1/cluster_token.txt
+[00:00:00]: Token retrieved from: APP:Klei//DoNotStarveTogether/386450579/Cluster_1/cluster_token.txt
+[00:00:00]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 10 家用版
+    version                   10.0.18362
+    architecture              64 位元
+    platformSpecific          SP 0.0
+  CPU                       
+    numCores                  4
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+    name                      Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz
+    manufacturer              GenuineIntel
+    clockSpeed                3401
+  RAM                       
+    megsOfRam                 16384
+  GPU                       
+    name                      Radeon Pro 560
+    driverDate                20170720000000.000000-000
+    megsOfRam                 4095
+    refreshRate               60
+    videoModeDescription      4096 x 2304 x 4294967296 色彩
+    driverVersion             22.19.170.1536
+
+[00:00:00]: cGame::InitializeOnMainThread
+[00:00:00]: Renderer initialize: Okay
+[00:00:00]: AnimManager initialize: Okay
+[00:00:00]: Buffers initialize: Okay
+[00:00:00]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:00]: GameSpecific initialize: Okay
+[00:00:00]: cGame::StartPlaying
+[00:00:00]: LOADING LUA
+[00:00:00]: DoLuaFile scripts/main.lua
+[00:00:00]: DoLuaFile loading buffer scripts/main.lua
+[00:00:00]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:00:01]:   taskgrouplist:	default	联机版	
+[00:00:01]:   taskgrouplist:	classic	经典	
+[00:00:01]:   taskgrouplist:	cave_default	地下	
+[00:00:01]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:01]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:01]: running main.lua
+	
+[00:00:01]: loaded modindex	
+[00:00:01]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:01]: DownloadMods(0)
+[00:00:02]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:03]: LOADING LUA SUCCESS
+[00:00:03]: PlayerDeaths could not load morgue	
+[00:00:03]: PlayerHistory could not load player_history	
+[00:00:03]: ServerPreferences could not load server_preferences	
+[00:00:03]: bloom_enabled	false	
+[00:00:03]: loaded saveindex	
+[00:00:03]: OnFilesLoaded()	
+[00:00:03]: OnUpdatePurchaseStateComplete	
+[00:00:03]: Klump load on boot started.	
+[00:00:03]: Klump files loaded: 	0	
+[00:00:04]: 	Load FE	
+[00:00:05]: 	Load FE: done	
+[00:00:05]: Check for write access: TRUE
+[00:00:05]: THREAD - started 'FilesExistAsyncThread' (12464)
+[00:00:05]: Check for read access: TRUE
+[00:00:05]: FilesExistAsyncThread started (16157 files)...
+[00:00:05]: ModIndex: Load sequence finished successfully.	
+[00:00:05]: Reset() returning
+[00:00:05]: [IPC] Signal 'DST_Master_Kill' opened  #0000055C
+[00:00:05]: [IPC] Registering handler for signal #0000055C
+[00:00:05]: [IPC] Handle #0000055C added to the Eventhandles
+[00:00:05]: [IPC] Signal 'DST_Master_Starting' opened  #00000558
+[00:00:05]: [IPC] Sending signal... #00000558
+[00:00:05]: [200] Account Communication Success (6)
+[00:00:05]: Received (KU_Z2tKYDz8) from TokenPurpose
+[00:00:05]: Starting Dedicated Server Game	
+[00:00:05]: Network tick rate: U=15(2), D=0
+[00:00:05]: About to start a server with the following settings:
+[00:00:05]:   Dedicated: true
+[00:00:05]:   Online: true
+[00:00:05]:   Passworded: false
+[00:00:05]:   ServerPort: 10999
+[00:00:05]:   SteamAuthPort: 8766
+[00:00:05]:   SteamMasterServerPort: 27016
+[00:00:05]:   ClanID: false
+[00:00:05]:   ClanOnly: false
+[00:00:05]:   ClanAdmin: false
+[00:00:05]:   LanOnly: false
+[00:00:05]:   FriendsOnly: true
+[00:00:05]:   EnableAutosaver: true
+[00:00:05]:   EncodeUserPath: true
+[00:00:05]:   PVP: false
+[00:00:05]:   MaxPlayers: 6
+[00:00:05]:   GameMode: survival
+[00:00:05]:   OverridenDNS: 
+[00:00:05]:   PauseWhenEmpty: true
+[00:00:05]:   IdleTimeout: 1800s
+[00:00:05]:   VoteEnabled: false
+[00:00:05]:   InternetBroadcasting: true
+[00:00:05]:   Intent: madness
+[00:00:05]: [Warning] Could not confirm port 10999 is open in the firewall. 
+[00:00:05]: Online Server Started on port: 10999
+[00:00:05]: Collecting garbage...
+[00:00:05]: lua_gc took 0.03 seconds
+[00:00:05]: ~ShardLuaProxy()
+[00:00:05]: ~cEventLeaderboardProxy()
+[00:00:05]: ~ItemServerLuaProxy()
+[00:00:05]: ~InventoryLuaProxy()
+[00:00:05]: ~NetworkLuaProxy()
+[00:00:05]: ~SimLuaProxy()
+[00:00:05]: FilesExistAsyncThread aborted.
+[00:00:05]: ... FilesExistAsyncThread complete
+[00:00:06]: lua_close took 0.05 seconds
+[00:00:06]: ReleaseAll
+[00:00:06]: ReleaseAll Finished
+[00:00:06]: cGame::StartPlaying
+[00:00:06]: LOADING LUA
+[00:00:06]: DoLuaFile scripts/main.lua
+[00:00:06]: DoLuaFile loading buffer scripts/main.lua
+[00:00:06]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:00:07]:   taskgrouplist:	default	联机版	
+[00:00:07]:   taskgrouplist:	classic	经典	
+[00:00:07]:   taskgrouplist:	cave_default	地下	
+[00:00:07]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:07]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:07]: running main.lua
+	
+[00:00:07]: loaded modindex	
+[00:00:07]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:07]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:07]: LOADING LUA SUCCESS
+[00:00:08]: PlayerDeaths could not load morgue	
+[00:00:08]: PlayerHistory could not load player_history	
+[00:00:08]: ServerPreferences could not load server_preferences	
+[00:00:08]: bloom_enabled	false	
+[00:00:08]: loaded saveindex	
+[00:00:08]: OnFilesLoaded()	
+[00:00:08]: OnUpdatePurchaseStateComplete	
+[00:00:08]: Loading world: session/1CD36DF84459284D/0000000871	
+[00:00:08]: Save file is at version 5.05	
+[00:00:08]: Klump load on boot started.	
+[00:00:08]: Klump files loaded: 	0	
+[00:00:08]: 	Unload FE	
+[00:00:08]: 	Unload FE done	
+[00:00:09]: 	LOAD BE	
+[00:00:11]: Could not preload undefined prefab (wavyjones_marker)
+[00:00:13]: 	LOAD BE: done	
+[00:00:13]: Begin Session: 1CD36DF84459284D
+[00:00:13]: saving to server_temp/server_save	
+[00:00:13]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:13]: Loading 17 new character(s)	
+[00:00:13]: Total 17 character(s) loaded	
+[00:00:14]: Loading Nav Grid	
+[00:00:14]: World generated on version 408761, using seed: 1589207358	
+[00:00:14]: setting 	summerlength	15	
+[00:00:14]: setting 	isnightmaredawn	false	
+[00:00:14]: setting 	elapseddaysinseason	1	
+[00:00:14]: setting 	isfullmoon	false	
+[00:00:14]: setting 	moisture	1078.9727783203	
+[00:00:14]: setting 	springlength	20	
+[00:00:14]: setting 	isnightmarewild	false	
+[00:00:14]: setting 	moonphase	half	
+[00:00:14]: setting 	precipitationrate	0	
+[00:00:14]: setting 	iswet	false	
+[00:00:14]: setting 	isnewmoon	false	
+[00:00:14]: setting 	iswinter	false	
+[00:00:14]: setting 	israining	false	
+[00:00:14]: setting 	isnightmarewarn	false	
+[00:00:14]: setting 	precipitation	none	
+[00:00:14]: setting 	cavephase	day	
+[00:00:14]: setting 	moistureceil	4807.705078125	
+[00:00:14]: setting 	isday	true	
+[00:00:14]: setting 	iscaveday	true	
+[00:00:14]: setting 	season	summer	
+[00:00:14]: setting 	timeinphase	0.0036752206307871	
+[00:00:14]: setting 	temperature	62.322127109148	
+[00:00:14]: setting 	isnightmarecalm	false	
+[00:00:14]: setting 	isnight	false	
+[00:00:14]: setting 	isdusk	false	
+[00:00:14]: setting 	iscavedusk	false	
+[00:00:14]: setting 	isautumn	false	
+[00:00:14]: setting 	issnowing	false	
+[00:00:14]: setting 	iswaxingmoon	true	
+[00:00:14]: setting 	pop	0.13289844943566	
+[00:00:14]: setting 	snowlevel	0	
+[00:00:14]: setting 	issnowcovered	false	
+[00:00:14]: setting 	autumnlength	20	
+[00:00:14]: setting 	phase	day	
+[00:00:14]: setting 	nightmaretime	0	
+[00:00:14]: setting 	winterlength	15	
+[00:00:14]: setting 	isspring	false	
+[00:00:14]: setting 	nightmarephase	none	
+[00:00:14]: setting 	remainingdaysinseason	14	
+[00:00:14]: setting 	cycles	826	
+[00:00:14]: setting 	iscavenight	false	
+[00:00:14]: setting 	nightmaretimeinphase	0	
+[00:00:14]: setting 	wetness	0	
+[00:00:14]: setting 	time	0.0020673116048177	
+[00:00:14]: setting 	issummer	true	
+[00:00:14]: OVERRIDE: setting	flowers	to	often	
+[00:00:14]: OVERRIDE: setting	butterfly	to	often	
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:20]: Reconstructing topology	
+[00:00:20]: 	...Sorting points	
+[00:00:20]: 	...Sorting edges	
+[00:00:20]: 	...Connecting nodes	
+[00:00:20]: 	...Validating connections	
+[00:00:20]: 	...Housekeeping	
+[00:00:20]: 	...Done!	
+[00:00:20]: Restoring user: session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000871	
+[00:00:21]: Restoring user: session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000871	
+[00:00:21]: Could not find anim [idle_loop] in bank [ghost]
+[00:00:21]: Serializing user: session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000872
+[00:00:21]: Serializing user: session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000872
+[00:00:21]: 1 uploads added to server. From server_temp
+[00:00:21]: About to start a shard with these settings:
+[00:00:21]:   ShardName: [SHDMASTER]
+[00:00:21]:   ShardID: 1
+[00:00:21]:   ShardRole: MASTER
+[00:00:21]:   MasterHost: (null)
+[00:00:21]:   MasterBind: 127.0.0.1
+[00:00:21]:   MasterPort: 10888
+[00:00:21]: [Shard] Starting master server
+[00:00:21]: [Warning] Could not confirm port 10888 is open in the firewall. 
+[00:00:21]: [Shard] Shard server started on port: 10888
+[00:00:21]: [IPC] Signal 'DST_Master_Ready' opened  #00000500
+[00:00:21]: [IPC] Sending signal... #00000500
+[00:00:21]: Telling Client our new session identifier: 1CD36DF84459284D
+[00:00:21]: Check for write access: TRUE
+[00:00:21]: Check for read access: TRUE
+[00:00:21]: ModIndex: Load sequence finished successfully.	
+[00:00:22]: Reset() returning
+[00:00:22]: [Steam] SteamGameServer_Init(8766, 10999, 27016)
+[00:00:22]: [Steam] SteamGameServer_Init success
+[00:00:22]: Validating portal[2] <-> 2712511313[2] (inactive)	
+[00:00:22]: Validating portal[9] <-> 2712511313[9] (inactive)	
+[00:00:22]: Validating portal[8] <-> 2712511313[8] (inactive)	
+[00:00:22]: Validating portal[4] <-> 2712511313[4] (inactive)	
+[00:00:22]: Validating portal[3] <-> 2712511313[3] (inactive)	
+[00:00:22]: Validating portal[1] <-> 2712511313[1] (inactive)	
+[00:00:22]: Validating portal[7] <-> 2712511313[7] (inactive)	
+[00:00:22]: Validating portal[10] <-> 2712511313[10] (inactive)	
+[00:00:22]: Validating portal[5] <-> 2712511313[5] (inactive)	
+[00:00:22]: Validating portal[6] <-> 2712511313[6] (inactive)	
+[00:00:23]: Sim paused
+[00:00:23]: Registering master server in Sing lobby
+[00:00:23]: Gameserver logged on to Steam, assigned identity steamid:90137580339292164
+[00:00:25]: [Shard] Secondary shar Caves(2712511313) connected: [LAN] 127.0.0.1
+[00:00:26]: [Shard] Secondary Caves(2712511313) ready!
+[00:00:26]: World 2712511313 is now connected	
+[00:00:26]: Validating portal[2] <-> 2712511313[2] (active)	
+[00:00:26]: Validating portal[9] <-> 2712511313[9] (active)	
+[00:00:26]: Validating portal[8] <-> 2712511313[8] (active)	
+[00:00:26]: Validating portal[4] <-> 2712511313[4] (active)	
+[00:00:26]: Validating portal[3] <-> 2712511313[3] (active)	
+[00:00:26]: Validating portal[1] <-> 2712511313[1] (active)	
+[00:00:26]: Validating portal[7] <-> 2712511313[7] (active)	
+[00:00:26]: Validating portal[10] <-> 2712511313[10] (active)	
+[00:00:26]: Validating portal[5] <-> 2712511313[5] (active)	
+[00:00:26]: Validating portal[6] <-> 2712511313[6] (active)	
+[00:00:26]: [Shard] Secondary shard 'Caves(2712511313)' restarting...
+[00:00:26]: World 2712511313 is now disconnected	
+[00:00:26]: Validating portal[2] <-> 2712511313[2] (inactive)	
+[00:00:26]: Validating portal[9] <-> 2712511313[9] (inactive)	
+[00:00:26]: Validating portal[8] <-> 2712511313[8] (inactive)	
+[00:00:26]: Validating portal[4] <-> 2712511313[4] (inactive)	
+[00:00:26]: Validating portal[3] <-> 2712511313[3] (inactive)	
+[00:00:26]: Validating portal[1] <-> 2712511313[1] (inactive)	
+[00:00:26]: Validating portal[7] <-> 2712511313[7] (inactive)	
+[00:00:26]: Validating portal[10] <-> 2712511313[10] (inactive)	
+[00:00:26]: Validating portal[5] <-> 2712511313[5] (inactive)	
+[00:00:26]: Validating portal[6] <-> 2712511313[6] (inactive)	
+[00:00:33]: Registering master server in Sing lobby
+[00:00:37]: [Shard] Secondary Caves(2712511313) ready!
+[00:00:37]: World 2712511313 is now connected	
+[00:00:37]: Validating portal[2] <-> 2712511313[2] (active)	
+[00:00:37]: Validating portal[9] <-> 2712511313[9] (active)	
+[00:00:37]: Validating portal[8] <-> 2712511313[8] (active)	
+[00:00:37]: Validating portal[4] <-> 2712511313[4] (active)	
+[00:00:37]: Validating portal[3] <-> 2712511313[3] (active)	
+[00:00:37]: Validating portal[1] <-> 2712511313[1] (active)	
+[00:00:37]: Validating portal[7] <-> 2712511313[7] (active)	
+[00:00:37]: Validating portal[10] <-> 2712511313[10] (active)	
+[00:00:37]: Validating portal[5] <-> 2712511313[5] (active)	
+[00:00:37]: Validating portal[6] <-> 2712511313[6] (active)	
+[00:00:40]: New incoming connection 127.0.0.1|49818 <1995451141366006831>
+[00:00:40]: Client connected from [LAN] 127.0.0.1|49818 <1995451141366006831>
+[00:00:40]: ValidateGameSessionToken pgs-usc^KU_Z2tKYDz8^DontStarveTogether^37hg1RcER90BTySLafZdKcktsafaSjnEy6J0w7H0CV0= for <1995451141366006831>
+[00:00:40]: Client authenticated: (KU_Z2tKYDz8) limwris0912
+[00:00:40]: [Steam] Authenticated host '76561198346716307'
+[00:00:42]: There is no active event to validate against.
+[00:00:42]: [Shard] Read save location file for (KU_Z2tKYDz8)
+[00:00:43]: Registering master server in Sing lobby
+[00:00:55]: Resuming user: session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000872
+[00:00:55]: Spawning player at: [Load] (-13.85, 0.00, -40.84)	
+[00:00:55]: Sim unpaused
+[00:00:55]: Registering master server in Sing lobby
+[00:01:15]: [P2P] Session request for '76561198517543938'
+[00:01:17]: [P2P] Create session: 27.233.160.141|1 '76561198517543938'
+[00:01:17]: [P2P] Received from 27.233.160.141|1 '76561198517543938'
+[00:01:17]: [P2P] Sent to 27.233.160.141|1 '76561198517543938'
+[00:01:18]: New incoming connection 27.233.160.141|1 <8478980257195434638>
+[00:01:18]: Client connected from 27.233.160.141|1 <8478980257195434638>
+[00:01:18]: ValidateGameSessionToken pgs-usc^KU_-OlmDxT9^DontStarveTogether^vjmlrEVWe/OpmDiLSNC+TBO2/CHCbejHbmiqD1hf2po= for <8478980257195434638>
+[00:01:18]: Client authenticated: (KU_-OlmDxT9) wawadgccc
+[00:01:18]: [Steam] SendUserConnectAndAuthenticate for '76561198517543938'
+[00:01:19]: [Steam] Authenticated client '76561198517543938'
+[00:01:20]: There is no active event to validate against.
+[00:01:20]: [Shard] Read save location file for (KU_-OlmDxT9)
+[00:01:20]: Registering master server in Sing lobby
+[00:01:34]: Resuming user: session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000872
+[00:01:34]: Could not find anim [idle_loop] in bank [ghost]
+[00:01:34]: Spawning player at: [Load] (220.91, -0.00, -135.03)	
+[00:01:34]: Registering master server in Sing lobby
+[00:02:00]: Could not find anim [idle_loop] in bank [ghost]
+[00:02:03]: Could not find anim [transform] in bank [wilson]
+[00:02:05]: Serializing user: session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000872
+[00:08:54]: Registering master server in Sing lobby
+[00:08:55]: Serializing user: session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000872
+[00:08:55]: Serializing user: session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000872
+[00:08:55]: Serializing world: session/1CD36DF84459284D/0000000872
+[00:10:29]: Activating portal[3] to 2712511313	
+[00:10:30]: Serializing user: session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000873
+[00:10:30]: [Shard] Migration request: (KU_Z2tKYDz8) to Caves(2712511313)
+[00:10:30]: [Shard] Begin migration #1 for (KU_Z2tKYDz8)
+[00:10:30]: [Shard] #1 [SHDMASTER](1) -> Caves(2712511313)
+[00:10:30]: [Shard] #1 <- session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000873
+[00:10:30]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[00:10:30]: [Steam] SendUserDisconnect for '76561198346716307'
+[00:10:30]: [Shard] (KU_Z2tKYDz8) disconnected from [SHDMASTER](1)
+[00:10:37]: [Shard] Completed migration #1 for player (KU_Z2tKYDz8)
+[00:10:37]: [Shard] Writing save location file for (KU_Z2tKYDz8)
+[00:16:56]: Serializing user: session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000873
+[00:16:56]: Serializing world: session/1CD36DF84459284D/0000000873
+[00:16:59]: Registering master server in Sing lobby
+[00:19:20]: [Shard] (KU_Z2tKYDz8) disconnected from Caves(2712511313)
+[00:19:20]: Registering master server in Sing lobby
+[00:19:20]: [IPC] Received shutdown signal.
+[00:19:21]: Serializing user: session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000874
+[00:19:21]: Serializing world: session/1CD36DF84459284D/0000000874
+[00:19:21]: Truncating to snapshot #874...
+[00:19:21]:  - session/1CD36DF84459284D/0000000868
+[00:19:21]:  - session/1CD36DF84459284D/A7KC5NA8HNQ8/0000000868
+[00:19:21]:  - session/1CD36DF84459284D/A7NPHFO3FDQ9/0000000868
+[00:19:21]:    3 file(s) removed
+[00:19:21]: Removing server from Sing lobby
+[00:19:21]: [Shard] Stopping shard mode
+[00:19:22]: Collecting garbage...
+[00:19:22]: lua_gc took 0.27 seconds
+[00:19:22]: ~ShardLuaProxy()
+[00:19:22]: ~cEventLeaderboardProxy()
+[00:19:22]: ~ItemServerLuaProxy()
+[00:19:22]: ~InventoryLuaProxy()
+[00:19:22]: ~NetworkLuaProxy()
+[00:19:22]: ~SimLuaProxy()
+[00:19:22]: Cancelling LuaQueryCallback handle [21]
+[00:19:22]: Cancelling LuaQueryCallback handle [22]
+[00:19:22]: lua_close took 0.48 seconds
+[00:19:22]: Could not unload undefined prefab (wavyjones_marker)
+[00:19:22]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:19:22]: CurlRequestManager::ClientThread::Main() complete
+[00:19:22]: HttpClient2 discarded 1 callbacks.
+[00:19:22]: Shutting down

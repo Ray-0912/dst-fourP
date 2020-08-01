@@ -1,0 +1,15 @@
+[00:00:53]: [Join Announcement] limwris0912
+[00:01:33]: [Join Announcement] wawadgccc
+[00:11:56]: [Death Announcement] wawadgccc 死于： 桦栗树。她变成了可怕的鬼魂！
+[00:12:22]: [Resurrect Announcement] wawadgccc 复活自： limwris0912.
+[01:02:38]: [Skin Announcement] wawadgccc legs_wormwood_shadow
+[01:08:19]: [Skin Announcement] limwris0912 body_tshirt_purple_mauve
+[01:56:19]: [Skin Announcement] wawadgccc feet_formal_stilettop_black_scribble
+[02:04:01]: [Skin Announcement] limwris0912 feet_buckle_shoe_tan_clay
+[02:13:46]: [Death Announcement] limwris0912 死于： 火。她变成了可怕的鬼魂！
+[02:13:55]: [Resurrect Announcement] limwris0912 复活自： 重生护符.
+[02:14:15]: [Death Announcement] wawadgccc 死于： 龙蝇。她变成了可怕的鬼魂！
+[02:14:26]: [Resurrect Announcement] wawadgccc 复活自： 重生护符.
+[02:14:26]: [Death Announcement] limwris0912 死于： 火。她变成了可怕的鬼魂！
+[02:15:08]: [Death Announcement] wawadgccc 死于： 岩浆虫。她变成了可怕的鬼魂！
+[02:15:12]: [Leave Announcement] limwris0912

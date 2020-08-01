@@ -1,0 +1,20 @@
+[00:00:53]: [Join Announcement] limwris0912
+[00:01:31]: [Join Announcement] wawadgccc
+[00:37:49]: [Skin Announcement] wawadgccc legs_pinstripe_pants_black_jet
+[00:47:34]: [Death Announcement] wawadgccc 死于： 恐怖尖喙。她变成了可怕的鬼魂！
+[00:49:51]: [Resurrect Announcement] wawadgccc 复活自： limwris0912.
+[00:50:09]: [Skin Announcement] limwris0912 hand_wurt_shadow
+[01:04:36]: [Death Announcement] wawadgccc 死于： 恐怖尖喙。她变成了可怕的鬼魂！
+[01:05:07]: [Resurrect Announcement] wawadgccc 复活自： limwris0912.
+[01:47:37]: [Death Announcement] wawadgccc 死于： 兔人。她变成了可怕的鬼魂！
+[01:48:32]: [Resurrect Announcement] wawadgccc 复活自： limwris0912.
+[01:49:17]: [Death Announcement] limwris0912 死于： 兔人。她变成了可怕的鬼魂！
+[01:50:10]: [Resurrect Announcement] limwris0912 复活自： wawadgccc.
+[01:55:07]: [Skin Announcement] wawadgccc legs_swing_pants_pink_raspberry
+[01:57:12]: [Skin Announcement] limwris0912 feet_loafers_tan_khaki
+[02:07:47]: [Death Announcement] limwris0912 死于： 黑暗。她变成了可怕的鬼魂！
+[02:09:23]: [Resurrect Announcement] limwris0912 复活自： wawadgccc.
+[02:43:35]: [Death Announcement] wawadgccc 死于： 恐怖尖喙。她变成了可怕的鬼魂！
+[02:44:16]: [Resurrect Announcement] wawadgccc 复活自： limwris0912.
+[02:48:52]: [Skin Announcement] wawadgccc hand_longgloves_grey_battleship
+[02:50:21]: [Death Announcement] limwris0912 死于： 蜘蛛女王。她变成了可怕的鬼魂！

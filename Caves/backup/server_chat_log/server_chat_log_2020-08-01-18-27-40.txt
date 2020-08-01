@@ -1,0 +1,6 @@
+[00:01:11]: [Join Announcement] limwris0912
+[00:02:17]: [Join Announcement] wawadgccc
+[00:07:38]: [Skin Announcement] limwris0912 hand_drivergloves_brown_sepia
+[00:23:03]: [Death Announcement] wawadgccc 死于： 蜂王。她变成了可怕的鬼魂！
+[00:23:17]: [Death Announcement] limwris0912 死于： 蜂王。她变成了可怕的鬼魂！
+[00:23:22]: [Leave Announcement] limwris0912

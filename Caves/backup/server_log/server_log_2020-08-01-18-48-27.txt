@@ -1,0 +1,538 @@
+[00:00:00]: 
+System Memory:
+	Memory Load: 34%
+	Available Physical Memory: 10674m/16281m
+	Available Page File: 8212m/18713m
+	Available Virtual Memory: 3985m/4095m
+	Available Extended Virtual Memory: 0m
+[00:00:00]: 
+Process Memory:
+	Peak Working Set Size: 30m
+	Working Set Size: 30m
+	Quota Peak Page Pool Usage: 221k
+	Quota Page Pool Usage: 216k
+	Quota Peak Non Paged Pool Usage:17k
+	Quota Non Paged Pool Usage: 16k
+	Page File Usage: 6m
+	Peak Page File Usage: 6m
+[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogether/386450579/Cluster_1/Caves/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 422596
+[00:00:00]: Current time: Sat Aug 01 18:27:39 2020
+
+[00:00:00]: Don't Starve Together: 422596 WIN32
+[00:00:00]: Build Date: 5432
+[00:00:00]: Mode: 32-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -monitor_parent_process 3196 -persistent_storage_root APP:Klei/ -conf_dir DoNotStarveTogether -cluster Cluster_1 -fo -ownernetid 76561198346716307 -ownerdir 386450579 -backup_log_count 10 -backup_log_period 0 -shard Caves -sigprefix DST_Secondary -region Sing 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: Initializing Minidump handler
+[00:00:00]: ....Done
+[00:00:00]: ....Done
+[00:00:00]: Fixing DPI
+[00:00:00]: ...Done
+[00:00:00]: THREAD - started 'GAClient' (5872)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:01]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:01]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:01]: Mounting file system databundles/images.zip successful.
+[00:00:01]: Mounting file system databundles/scripts.zip successful.
+[00:00:01]: ProfileIndex:3.25
+[00:00:01]: [Connect] PendingConnection::Reset(true)
+[00:00:01]: THREAD - started 'Ping Job Thread' (9896)
+[00:00:01]: Platform: 1
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: Authorized application C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\bin\dontstarve_dedicated_server_nullrenderer.exe is enabled in the firewall.
+[00:00:01]: WindowsFirewall - Application already authorized
+[00:00:01]: Overriding region to Sing
+[00:00:01]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/386450579/client_save/blocklist.txt (Failure)
+[00:00:01]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/386450579/client_save/adminlist.txt (Failure)
+[00:00:01]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/386450579/client_save/whitelist.txt (Failure)
+[00:00:01]: Offline user ID: OU_76561198346716307
+[00:00:01]: THREAD - started 'StreamInput' (5004)
+[00:00:01]: Token retrieved from: APP:Klei//DoNotStarveTogether/386450579/Cluster_1/cluster_token.txt
+[00:00:01]: Token retrieved from: APP:Klei//DoNotStarveTogether/386450579/Cluster_1/cluster_token.txt
+[00:00:01]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 10 家用版
+    version                   10.0.18362
+    architecture              64 位元
+    platformSpecific          SP 0.0
+  CPU                       
+    numCores                  4
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+    name                      Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz
+    manufacturer              GenuineIntel
+    clockSpeed                3401
+  RAM                       
+    megsOfRam                 16384
+  GPU                       
+    name                      Radeon Pro 560
+    driverDate                20170720000000.000000-000
+    megsOfRam                 4095
+    refreshRate               60
+    videoModeDescription      4096 x 2304 x 4294967296 色彩
+    driverVersion             22.19.170.1536
+
+[00:00:01]: cGame::InitializeOnMainThread
+[00:00:01]: Renderer initialize: Okay
+[00:00:01]: AnimManager initialize: Okay
+[00:00:01]: Buffers initialize: Okay
+[00:00:01]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:01]: GameSpecific initialize: Okay
+[00:00:01]: cGame::StartPlaying
+[00:00:01]: LOADING LUA
+[00:00:01]: DoLuaFile scripts/main.lua
+[00:00:01]: DoLuaFile loading buffer scripts/main.lua
+[00:00:01]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:00:02]:   taskgrouplist:	default	联机版	
+[00:00:02]:   taskgrouplist:	classic	经典	
+[00:00:02]:   taskgrouplist:	cave_default	地下	
+[00:00:02]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:02]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:02]: running main.lua
+	
+[00:00:02]: loaded modindex	
+[00:00:02]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:02]: DownloadMods(0)
+[00:00:02]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:03]: LOADING LUA SUCCESS
+[00:00:03]: PlayerDeaths could not load morgue	
+[00:00:03]: PlayerHistory could not load player_history	
+[00:00:03]: ServerPreferences could not load server_preferences	
+[00:00:03]: bloom_enabled	false	
+[00:00:03]: loaded saveindex	
+[00:00:03]: OnFilesLoaded()	
+[00:00:03]: OnUpdatePurchaseStateComplete	
+[00:00:03]: Klump load on boot started.	
+[00:00:03]: Klump files loaded: 	0	
+[00:00:05]: 	Load FE	
+[00:00:05]: 	Load FE: done	
+[00:00:05]: THREAD - started 'FilesExistAsyncThread' (1532)
+[00:00:05]: FilesExistAsyncThread started (16157 files)...
+[00:00:05]: Check for write access: TRUE
+[00:00:05]: Check for read access: TRUE
+[00:00:05]: ModIndex: Load sequence finished successfully.	
+[00:00:05]: Reset() returning
+[00:00:05]: [IPC] Signal 'DST_Secondary_Kill' opened  #0000054C
+[00:00:05]: [IPC] Registering handler for signal #0000054C
+[00:00:05]: [IPC] Handle #0000054C added to the Eventhandles
+[00:00:05]: [IPC] Signal 'DST_Secondary_Starting' opened  #00000550
+[00:00:05]: [IPC] Sending signal... #00000550
+[00:00:06]: [200] Account Communication Success (6)
+[00:00:06]: Received (KU_Z2tKYDz8) from TokenPurpose
+[00:00:06]: Starting Dedicated Server Game	
+[00:00:06]: Network tick rate: U=15(2), D=0
+[00:00:06]: About to start a server with the following settings:
+[00:00:06]:   Dedicated: true
+[00:00:06]:   Online: true
+[00:00:06]:   Passworded: false
+[00:00:06]:   ServerPort: 10998
+[00:00:06]:   SteamAuthPort: 8767
+[00:00:06]:   SteamMasterServerPort: 27017
+[00:00:06]:   ClanID: false
+[00:00:06]:   ClanOnly: false
+[00:00:06]:   ClanAdmin: false
+[00:00:06]:   LanOnly: false
+[00:00:06]:   FriendsOnly: true
+[00:00:06]:   EnableAutosaver: true
+[00:00:06]:   EncodeUserPath: true
+[00:00:06]:   PVP: false
+[00:00:06]:   MaxPlayers: 6
+[00:00:06]:   GameMode: survival
+[00:00:06]:   OverridenDNS: 
+[00:00:06]:   PauseWhenEmpty: true
+[00:00:06]:   IdleTimeout: 1800s
+[00:00:06]:   VoteEnabled: false
+[00:00:06]:   InternetBroadcasting: true
+[00:00:06]:   Intent: madness
+[00:00:06]: [Warning] Could not confirm port 10998 is open in the firewall. 
+[00:00:06]: Online Server Started on port: 10998
+[00:00:06]: Collecting garbage...
+[00:00:06]: lua_gc took 0.03 seconds
+[00:00:06]: ~ShardLuaProxy()
+[00:00:06]: ~cEventLeaderboardProxy()
+[00:00:06]: ~ItemServerLuaProxy()
+[00:00:06]: ~InventoryLuaProxy()
+[00:00:06]: ~NetworkLuaProxy()
+[00:00:06]: ~SimLuaProxy()
+[00:00:06]: FilesExistAsyncThread aborted.
+[00:00:06]: ... FilesExistAsyncThread complete
+[00:00:06]: lua_close took 0.05 seconds
+[00:00:06]: ReleaseAll
+[00:00:06]: ReleaseAll Finished
+[00:00:06]: cGame::StartPlaying
+[00:00:06]: LOADING LUA
+[00:00:06]: DoLuaFile scripts/main.lua
+[00:00:06]: DoLuaFile loading buffer scripts/main.lua
+[00:00:06]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:00:08]:   taskgrouplist:	default	联机版	
+[00:00:08]:   taskgrouplist:	classic	经典	
+[00:00:08]:   taskgrouplist:	cave_default	地下	
+[00:00:08]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:08]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:08]: running main.lua
+	
+[00:00:08]: loaded modindex	
+[00:00:08]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:08]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:08]: LOADING LUA SUCCESS
+[00:00:08]: PlayerDeaths could not load morgue	
+[00:00:08]: PlayerHistory could not load player_history	
+[00:00:08]: ServerPreferences could not load server_preferences	
+[00:00:08]: bloom_enabled	false	
+[00:00:08]: loaded saveindex	
+[00:00:08]: OnFilesLoaded()	
+[00:00:08]: OnUpdatePurchaseStateComplete	
+[00:00:08]: Loading world: session/5FE34B9A55277953/0000000871	
+[00:00:08]: Save file is at version 5.05	
+[00:00:08]: Klump load on boot started.	
+[00:00:08]: Klump files loaded: 	0	
+[00:00:09]: 	Unload FE	
+[00:00:09]: 	Unload FE done	
+[00:00:10]: 	LOAD BE	
+[00:00:12]: Could not preload undefined prefab (wavyjones_marker)
+[00:00:13]: 	LOAD BE: done	
+[00:00:13]: Begin Session: 5FE34B9A55277953
+[00:00:13]: saving to server_temp/server_save	
+[00:00:14]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:14]: Loading 17 new character(s)	
+[00:00:14]: Total 17 character(s) loaded	
+[00:00:18]: Loading Nav Grid	
+[00:00:18]: World generated on version 408761, using seed: 1589207358	
+[00:00:18]: setting 	summerlength	15	
+[00:00:18]: setting 	isnightmaredawn	false	
+[00:00:18]: setting 	elapseddaysinseason	0	
+[00:00:18]: setting 	isfullmoon	false	
+[00:00:18]: setting 	moisture	512.73620605469	
+[00:00:18]: setting 	springlength	20	
+[00:00:18]: setting 	isnightmarewild	false	
+[00:00:18]: setting 	moonphase	new	
+[00:00:18]: setting 	precipitationrate	0.2200807348893	
+[00:00:18]: setting 	iswet	true	
+[00:00:18]: setting 	isnewmoon	false	
+[00:00:18]: setting 	iswinter	false	
+[00:00:18]: setting 	israining	true	
+[00:00:18]: setting 	isnightmarewarn	false	
+[00:00:18]: setting 	precipitation	rain	
+[00:00:18]: setting 	cavephase	night	
+[00:00:18]: setting 	moistureceil	4944.6723632813	
+[00:00:18]: setting 	isday	false	
+[00:00:18]: setting 	iscaveday	false	
+[00:00:18]: setting 	season	summer	
+[00:00:18]: setting 	timeinphase	0.090504455566406	
+[00:00:18]: setting 	temperature	31.554324072605	
+[00:00:18]: setting 	isnightmarecalm	true	
+[00:00:18]: setting 	isnight	true	
+[00:00:18]: setting 	isdusk	false	
+[00:00:18]: setting 	iscavedusk	false	
+[00:00:18]: setting 	isautumn	false	
+[00:00:18]: setting 	issnowing	false	
+[00:00:18]: setting 	iswaxingmoon	true	
+[00:00:18]: setting 	pop	1	
+[00:00:18]: setting 	snowlevel	0	
+[00:00:18]: setting 	issnowcovered	false	
+[00:00:18]: setting 	autumnlength	20	
+[00:00:18]: setting 	phase	night	
+[00:00:18]: setting 	nightmaretime	236.41524774753	
+[00:00:18]: setting 	winterlength	15	
+[00:00:18]: setting 	isspring	false	
+[00:00:18]: setting 	nightmarephase	calm	
+[00:00:18]: setting 	remainingdaysinseason	15	
+[00:00:18]: setting 	cycles	825	
+[00:00:18]: setting 	iscavenight	true	
+[00:00:18]: setting 	nightmaretimeinphase	0.65670902152093	
+[00:00:18]: setting 	wetness	100	
+[00:00:18]: setting 	time	0.7726261138916	
+[00:00:18]: setting 	issummer	true	
+[00:00:18]: [Shard] Secondary shard is waiting for LUA...
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:19]: Could not find anim build FROMNUM
+[00:00:20]: Reconstructing topology	
+[00:00:20]: 	...Sorting points	
+[00:00:20]: 	...Sorting edges	
+[00:00:20]: 	...Connecting nodes	
+[00:00:20]: 	...Validating connections	
+[00:00:21]: 	...Housekeeping	
+[00:00:21]: 	...Done!	
+[00:00:21]: 1 uploads added to server. From server_temp
+[00:00:21]: About to start a shard with these settings:
+[00:00:21]:   ShardName: Caves
+[00:00:21]:   ShardID: 2712511313
+[00:00:21]:   ShardRole: SECONDARY
+[00:00:21]:   MasterHost: 127.0.0.1
+[00:00:21]:   MasterBind: (null)
+[00:00:21]:   MasterPort: 10888
+[00:00:21]: [Shard] Connecting to master...
+[00:00:21]: Telling Client our new session identifier: 5FE34B9A55277953
+[00:00:21]: Check for write access: TRUE
+[00:00:21]: Check for read access: TRUE
+[00:00:21]: ModIndex: Load sequence finished successfully.	
+[00:00:21]: Reset() returning
+[00:00:21]: [Steam] SteamGameServer_Init(8767, 10998, 27017)
+[00:00:21]: [Steam] SteamGameServer_Init success
+[00:00:21]: [Shard] Connection to master failed. Waiting to reconnect...
+[00:00:21]: Validating portal[6] <-> 1[6] (inactive)	
+[00:00:21]: Validating portal[10] <-> 1[10] (inactive)	
+[00:00:21]: Validating portal[4] <-> 1[4] (inactive)	
+[00:00:21]: Validating portal[1] <-> 1[1] (inactive)	
+[00:00:21]: Validating portal[5] <-> 1[5] (inactive)	
+[00:00:21]: Validating portal[8] <-> 1[8] (inactive)	
+[00:00:21]: Validating portal[7] <-> 1[7] (inactive)	
+[00:00:21]: Validating portal[9] <-> 1[9] (inactive)	
+[00:00:21]: Validating portal[3] <-> 1[3] (inactive)	
+[00:00:21]: Validating portal[2] <-> 1[2] (inactive)	
+[00:00:22]: Gameserver logged on to Steam, assigned identity steamid:90137579365766148
+[00:00:26]: About to start a shard with these settings:
+[00:00:26]:   ShardName: Caves
+[00:00:26]:   ShardID: 2712511313
+[00:00:26]:   ShardRole: SECONDARY
+[00:00:26]:   MasterHost: 127.0.0.1
+[00:00:26]:   MasterBind: (null)
+[00:00:26]:   MasterPort: 10888
+[00:00:26]: [Shard] Connecting to master...
+[00:00:26]: [Shard] Sending secondary shard information to master...
+[00:00:26]: Registering secondary shard in Sing lobby
+[00:00:27]: [Shard] secondary shard is now ready!
+[00:00:27]: Synchronizing backward to master snapshot 870	
+[00:00:27]: Truncating to snapshot #870...
+[00:00:27]:  - session/5FE34B9A55277953/0000000871
+[00:00:27]:    1 file(s) removed
+[00:00:27]: World 1 is now connected	
+[00:00:27]: Validating portal[6] <-> 1[6] (active)	
+[00:00:27]: Validating portal[10] <-> 1[10] (active)	
+[00:00:27]: Validating portal[4] <-> 1[4] (active)	
+[00:00:27]: Validating portal[1] <-> 1[1] (active)	
+[00:00:27]: Validating portal[5] <-> 1[5] (active)	
+[00:00:27]: Validating portal[8] <-> 1[8] (active)	
+[00:00:27]: Validating portal[7] <-> 1[7] (active)	
+[00:00:27]: Validating portal[9] <-> 1[9] (active)	
+[00:00:27]: Validating portal[3] <-> 1[3] (active)	
+[00:00:27]: Validating portal[2] <-> 1[2] (active)	
+[00:00:27]: Collecting garbage...
+[00:00:27]: lua_gc took 0.12 seconds
+[00:00:27]: ~ShardLuaProxy()
+[00:00:27]: ~cEventLeaderboardProxy()
+[00:00:27]: ~ItemServerLuaProxy()
+[00:00:27]: ~InventoryLuaProxy()
+[00:00:27]: ~NetworkLuaProxy()
+[00:00:27]: ~SimLuaProxy()
+[00:00:27]: lua_close took 0.25 seconds
+[00:00:27]: ReleaseAll
+[00:00:27]: ReleaseAll Finished
+[00:00:27]: cGame::StartPlaying
+[00:00:27]: LOADING LUA
+[00:00:27]: DoLuaFile scripts/main.lua
+[00:00:27]: DoLuaFile loading buffer scripts/main.lua
+[00:00:27]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:00:29]:   taskgrouplist:	default	联机版	
+[00:00:29]:   taskgrouplist:	classic	经典	
+[00:00:29]:   taskgrouplist:	cave_default	地下	
+[00:00:29]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:29]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:29]: running main.lua
+	
+[00:00:29]: loaded modindex	
+[00:00:29]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:29]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:29]: LOADING LUA SUCCESS
+[00:00:29]: PlayerDeaths could not load morgue	
+[00:00:29]: PlayerHistory could not load player_history	
+[00:00:29]: ServerPreferences could not load server_preferences	
+[00:00:29]: bloom_enabled	false	
+[00:00:29]: loaded saveindex	
+[00:00:29]: OnFilesLoaded()	
+[00:00:29]: OnUpdatePurchaseStateComplete	
+[00:00:29]: Loading world: session/5FE34B9A55277953/0000000870	
+[00:00:29]: Save file is at version 5.05	
+[00:00:29]: Klump load on boot started.	
+[00:00:29]: Klump files loaded: 	0	
+[00:00:29]: 	Unload characters	
+[00:00:29]: 	BE assets already loaded	
+[00:00:30]: Begin Session: 5FE34B9A55277953
+[00:00:30]: Stomping previously assigned session identifier, two loads issued.
+[00:00:30]: saving to server_temp/server_save	
+[00:00:31]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:31]: Loading 17 new character(s)	
+[00:00:31]: Total 17 character(s) loaded	
+[00:00:35]: Loading Nav Grid	
+[00:00:35]: World generated on version 408761, using seed: 1589207358	
+[00:00:35]: setting 	summerlength	15	
+[00:00:35]: setting 	isnightmaredawn	false	
+[00:00:35]: setting 	elapseddaysinseason	0	
+[00:00:35]: setting 	isfullmoon	false	
+[00:00:35]: setting 	moisture	2368.5556640625	
+[00:00:35]: setting 	springlength	20	
+[00:00:35]: setting 	isnightmarewild	true	
+[00:00:35]: setting 	moonphase	new	
+[00:00:35]: setting 	precipitationrate	0.60637223720551	
+[00:00:35]: setting 	iswet	true	
+[00:00:35]: setting 	isnewmoon	false	
+[00:00:35]: setting 	iswinter	false	
+[00:00:35]: setting 	israining	true	
+[00:00:35]: setting 	isnightmarewarn	false	
+[00:00:35]: setting 	precipitation	rain	
+[00:00:35]: setting 	cavephase	day	
+[00:00:35]: setting 	moistureceil	4944.6723632813	
+[00:00:35]: setting 	isday	false	
+[00:00:35]: setting 	iscaveday	true	
+[00:00:35]: setting 	season	summer	
+[00:00:35]: setting 	timeinphase	0.0043337504069011	
+[00:00:35]: setting 	temperature	33.029901939428	
+[00:00:35]: setting 	isnightmarecalm	false	
+[00:00:35]: setting 	isnight	true	
+[00:00:35]: setting 	isdusk	false	
+[00:00:35]: setting 	iscavedusk	false	
+[00:00:35]: setting 	isautumn	false	
+[00:00:35]: setting 	issnowing	false	
+[00:00:35]: setting 	iswaxingmoon	true	
+[00:00:35]: setting 	pop	1	
+[00:00:35]: setting 	snowlevel	0	
+[00:00:35]: setting 	issnowcovered	false	
+[00:00:35]: setting 	autumnlength	20	
+[00:00:35]: setting 	phase	night	
+[00:00:35]: setting 	nightmaretime	598.84742426265	
+[00:00:35]: setting 	winterlength	15	
+[00:00:35]: setting 	isspring	false	
+[00:00:35]: setting 	nightmarephase	wild	
+[00:00:35]: setting 	remainingdaysinseason	15	
+[00:00:35]: setting 	cycles	825	
+[00:00:35]: setting 	iscavenight	false	
+[00:00:35]: setting 	nightmaretimeinphase	0.99231616175097	
+[00:00:35]: setting 	wetness	100	
+[00:00:35]: setting 	time	0.0021668752034505	
+[00:00:35]: setting 	issummer	true	
+[00:00:37]: Could not find anim build FROMNUM
+[00:00:37]: Could not find anim build FROMNUM
+[00:00:37]: Could not find anim build FROMNUM
+[00:00:37]: Could not find anim build FROMNUM
+[00:00:37]: Could not find anim build FROMNUM
+[00:00:37]: Could not find anim build FROMNUM
+[00:00:37]: Could not find anim build FROMNUM
+[00:00:37]: Could not find anim build FROMNUM
+[00:00:37]: Could not find anim build FROMNUM
+[00:00:37]: Could not find anim build FROMNUM
+[00:00:37]: Could not find anim build FROMNUM
+[00:00:37]: Could not find anim build FROMNUM
+[00:00:37]: Could not find anim build FROMNUM
+[00:00:37]: Could not find anim build FROMNUM
+[00:00:37]: Could not find anim build FROMNUM
+[00:00:37]: Could not find anim build FROMNUM
+[00:00:37]: Could not find anim build FROMNUM
+[00:00:37]: Could not find anim build FROMNUM
+[00:00:37]: Could not find anim build FROMNUM
+[00:00:37]: Could not find anim build FROMNUM
+[00:00:37]: Could not find anim build FROMNUM
+[00:00:37]: Could not find anim build FROMNUM
+[00:00:37]: Could not find anim build FROMNUM
+[00:00:37]: Could not find anim build FROMNUM
+[00:00:37]: Could not find anim build FROMNUM
+[00:00:37]: Could not find anim build FROMNUM
+[00:00:37]: Could not find anim build FROMNUM
+[00:00:37]: Could not find anim build FROMNUM
+[00:00:37]: Could not find anim build FROMNUM
+[00:00:37]: Could not find anim build FROMNUM
+[00:00:37]: Could not find anim build FROMNUM
+[00:00:37]: Could not find anim build FROMNUM
+[00:00:37]: Could not find anim build FROMNUM
+[00:00:37]: Could not find anim build FROMNUM
+[00:00:37]: Could not find anim build FROMNUM
+[00:00:39]: Reconstructing topology	
+[00:00:39]: 	...Sorting points	
+[00:00:39]: 	...Sorting edges	
+[00:00:39]: 	...Connecting nodes	
+[00:00:39]: 	...Validating connections	
+[00:00:39]: 	...Housekeeping	
+[00:00:39]: 	...Done!	
+[00:00:39]: 1 uploads added to server. From server_temp
+[00:00:39]: World 1 is now connected	
+[00:00:39]: Telling Client our new session identifier: 5FE34B9A55277953
+[00:00:39]: Check for write access: TRUE
+[00:00:39]: Check for read access: TRUE
+[00:00:39]: ModIndex: Load sequence finished successfully.	
+[00:00:39]: Reset() returning
+[00:00:39]: Validating portal[9] <-> 1[9] (active)	
+[00:00:39]: Validating portal[10] <-> 1[10] (active)	
+[00:00:39]: Validating portal[8] <-> 1[8] (active)	
+[00:00:39]: Validating portal[5] <-> 1[5] (active)	
+[00:00:39]: Validating portal[7] <-> 1[7] (active)	
+[00:00:39]: Validating portal[4] <-> 1[4] (active)	
+[00:00:39]: Validating portal[3] <-> 1[3] (active)	
+[00:00:39]: Validating portal[2] <-> 1[2] (active)	
+[00:00:39]: Validating portal[1] <-> 1[1] (active)	
+[00:00:39]: Validating portal[6] <-> 1[6] (active)	
+[00:00:40]: [Shard] secondary shard LUA is now ready!
+[00:00:40]: [IPC] Signal 'DST_Secondary_Ready' opened  #00000A10
+[00:00:40]: [IPC] Sending signal... #00000A10
+[00:00:40]: Sim paused
+[00:00:56]: Sim unpaused
+[00:05:26]: Registering secondary shard in Sing lobby
+[00:08:56]: Serializing world: session/5FE34B9A55277953/0000000871
+[00:10:26]: Registering secondary shard in Sing lobby
+[00:15:26]: Registering secondary shard in Sing lobby
+[00:16:57]: Serializing world: session/5FE34B9A55277953/0000000872
+[00:16:57]: Truncating to snapshot #872...
+[00:16:57]:  - session/5FE34B9A55277953/0000000866
+[00:16:57]:    1 file(s) removed
+[00:20:15]: [Shard] We have been disconnected from the master. Waiting to reconnect...
+[00:20:15]: Sim paused
+[00:20:17]: [IPC] Received shutdown signal.
+[00:20:17]: Serializing world: session/5FE34B9A55277953/0000000873
+[00:20:17]: Truncating to snapshot #873...
+[00:20:17]:  - session/5FE34B9A55277953/0000000867
+[00:20:17]:    1 file(s) removed
+[00:20:17]: [Shard] Stopping shard mode
+[00:20:17]: Collecting garbage...
+[00:20:17]: lua_gc took 0.11 seconds
+[00:20:18]: ~ShardLuaProxy()
+[00:20:18]: ~cEventLeaderboardProxy()
+[00:20:18]: ~ItemServerLuaProxy()
+[00:20:18]: ~InventoryLuaProxy()
+[00:20:18]: ~NetworkLuaProxy()
+[00:20:18]: ~SimLuaProxy()
+[00:20:18]: lua_close took 0.24 seconds
+[00:20:18]: Could not unload undefined prefab (wavyjones_marker)
+[00:20:18]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:20:18]: CurlRequestManager::ClientThread::Main() complete
+[00:20:18]: HttpClient2 discarded 0 callbacks.
+[00:20:18]: Shutting down

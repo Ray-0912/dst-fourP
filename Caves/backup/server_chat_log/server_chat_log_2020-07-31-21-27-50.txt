@@ -1,0 +1,5 @@
+[00:00:54]: [Join Announcement] limwris0912
+[00:02:46]: [Join Announcement] wawadgccc
+[00:14:21]: [Death Announcement] wawadgccc 死于： 恐怖尖喙。她变成了可怕的鬼魂！
+[00:14:58]: [Resurrect Announcement] wawadgccc 复活自： limwris0912.
+[00:18:54]: [Leave Announcement] limwris0912

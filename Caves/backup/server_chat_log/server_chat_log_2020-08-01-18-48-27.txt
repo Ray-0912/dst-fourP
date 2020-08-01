@@ -1,0 +1,10 @@
+[00:00:53]: [Join Announcement] limwris0912
+[00:01:35]: [Join Announcement] wawadgccc
+[00:07:48]: [Death Announcement] wawadgccc 死于： 恐怖尖喙。她变成了可怕的鬼魂！
+[00:09:59]: [Resurrect Announcement] wawadgccc 复活自： limwris0912.
+[00:15:19]: [Death Announcement] wawadgccc 死于： 蜂王。她变成了可怕的鬼魂！
+[00:17:18]: [Resurrect Announcement] wawadgccc 复活自： 重生护符.
+[00:18:30]: [Death Announcement] limwris0912 死于： 中暑。她变成了可怕的鬼魂！
+[00:18:45]: [Resurrect Announcement] limwris0912 复活自： 重生护符.
+[00:20:02]: [Death Announcement] limwris0912 死于： 中暑。她变成了可怕的鬼魂！
+[00:20:13]: [Leave Announcement] limwris0912
